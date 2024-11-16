@@ -1,6 +1,7 @@
 import Navbar from "./components/Navbar/Navbar"
-import About from "./components/Pages/About/About"
-import Hero from "./components/Pages/Hero/Hero"
+import About from "./Pages/About/About"
+import Hero from "./Pages/Hero/Hero"
+import Services from "./Pages/ServicesPage/Services"
 
 const App = () => {
   return (
@@ -8,6 +9,7 @@ const App = () => {
       <Navbar/>
       <Hero/>
       <About/>
+      <Services/>
     </div>
   )
 }

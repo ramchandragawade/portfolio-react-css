@@ -1,6 +1,7 @@
 import './Hero.css';
-import profileImg from '../../../assets/profile_img.svg'
-import ConnectBtn from '../../Buttons/ConnectBtn';
+import profileImg from '../../assets/profile_img.svg'
+import ConnectBtn from '../../components/Buttons/ConnectBtn';
+
 const Hero = () => {
   return (
     <div className='hero'>

@@ -1,13 +1,10 @@
 import './About.css';
-import themePattern from '../../../assets/theme_pattern.svg';
-import profileImg from '../../../assets/about_profile.svg';
+import profileImg from '../../assets/about_profile.svg';
+import TitleBox from '../../components/TitleBox/TitleBox';
 const About = () => {
   return (
     <div className='about'>
-        <div className="about-title">
-            <h1>About me</h1>
-            <img src={themePattern} alt="theme pattern" />
-        </div>
+        <TitleBox title={'About me'}/>
         <div className="about-sections">
             <div className="about-left">
                 <img src={profileImg} alt="profile img" />

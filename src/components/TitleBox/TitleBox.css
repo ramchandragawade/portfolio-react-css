@@ -1,0 +1,15 @@
+.title-box {
+    position: relative;
+}
+.title-box h1 {
+    padding: 0px 30px;
+    font-size: 70px;
+    font-weight: 600;
+}
+
+.title-box img {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    z-index: -1;
+}
