@@ -1,5 +1,6 @@
 import './Navbar.css';
 import logo from "../../assets/logo.svg"
+import ConnectBtn from '../Buttons/ConnectBtn';
 const Navbar = () => {
   return (
     <div className='navbar'>
@@ -10,7 +11,7 @@ const Navbar = () => {
             <li>Projects</li>
             <li>Contact</li>
         </ul>
-        <div className="nav-connect">Connect With Me</div>
+      <ConnectBtn/>
     </div>
   )
 }
