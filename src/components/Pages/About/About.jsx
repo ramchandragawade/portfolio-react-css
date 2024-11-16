@@ -1,9 +1,48 @@
 import './About.css';
-
+import themePattern from '../../../assets/theme_pattern.svg';
+import profileImg from '../../../assets/about_profile.svg';
 const About = () => {
   return (
     <div className='about'>
-
+        <div className="about-title">
+            <h1>About me</h1>
+            <img src={themePattern} alt="theme pattern" />
+        </div>
+        <div className="about-sections">
+            <div className="about-left">
+                <img src={profileImg} alt="profile img" />
+            </div>
+            <div className="about-right">
+                <div className="about-para">
+                    <p>I am an experienced Frontend Developer with over a decade of professional expertise in the field. Throughout my career, I have had the privilege of collaborating with prestigious organizations, contributing to their success and growth.</p>
+                    <p>My passion for frontend development is not only reflected in my extensive experience but also in the enthusiasm and dedication I bring to each project.</p>
+                </div>
+                <div className="about-skills">
+                    <div className="about-skill">
+                        <p>HTML & CSS</p><hr style={{width:"80%"}}/>
+                        <p>React.js</p><hr style={{width:"70%"}}/>
+                        <p>Javascript</p><hr style={{width:"80%"}}/>
+                        <p>NextJs</p><hr style={{width:"60%"}}/>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div className="aboout-honors">
+            <div className="about-honor">
+                <h1>5+</h1>
+                <p>YEARS OF EXPERIENCE</p>
+            </div>
+            <hr />
+            <div className="about-honor">
+                <h1>90+</h1>
+                <p>PROJECTS COMPLETED</p>
+            </div>
+            <hr />
+            <div className="about-honor">
+                <h1>15+</h1>
+                <p>HAPPY CLIENTS</p>
+            </div>
+        </div>
     </div>
   )
 }
