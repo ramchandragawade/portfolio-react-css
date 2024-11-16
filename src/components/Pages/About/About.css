@@ -58,7 +58,12 @@
     display: flex;
     gap: 50px;
     align-items: center;
-    transition: 0.5;
+    transition: 0.5s;
+}
+
+.about-skill:hover {
+    transform: scale(1.05);
+    transition: 0.3s;
 }
 
 .about-skill p {
@@ -88,7 +93,12 @@
     flex-direction: column;
     align-items: center;
     gap: 10px;
-    transition: 0.5px;
+    transition: 0.5s;
+}
+
+.about-honor:hover {
+    transform: scale(1.12);
+    transition: 0.5s;
 }
 
 .about-honor h1 {
