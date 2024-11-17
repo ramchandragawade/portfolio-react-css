@@ -1,6 +1,6 @@
 import './Navbar.css';
 import logo from "../../assets/logo.svg"
-import ConnectBtn from '../Buttons/ConnectBtn';
+import PatternBtn from '../Buttons/PatternBtn';
 const Navbar = () => {
   return (
     <div className='navbar'>
@@ -12,7 +12,7 @@ const Navbar = () => {
             <li>Projects</li>
             <li>Contact</li>
         </ul>
-      <ConnectBtn/>
+      <PatternBtn text={'Connect With Me'}/>
     </div>
   )
 }

@@ -1,6 +1,6 @@
 import './Hero.css';
 import profileImg from '../../assets/profile_img.svg'
-import ConnectBtn from '../../components/Buttons/ConnectBtn';
+import PatternBtn from '../../components/Buttons/PatternBtn';
 
 const Hero = () => {
   return (
@@ -9,7 +9,7 @@ const Hero = () => {
         <h1><span>I am Alex Bennet</span>, front end developer based in USA.</h1>
         <p>I am a frontend developer from California, USA with 10 years of experience in multiple companies like Microsoft, Tesla and Apple. </p>
         <div className='hero-action'>
-            <ConnectBtn/>
+            <PatternBtn text={'Connect With Me'}/>
             <div className="hero-resume">My resume</div>
         </div>
     </div>
