@@ -4,7 +4,7 @@ import workData from '../../assets/mywork_data';
 import arrowIcon from '../../assets/arrow_icon.svg'
 const Works = () => {
   return (
-    <div className='works'>
+    <div id='works' className='works'>
         <TitleBox title={'My latest work'}/>
         <div className="works-container">
             {workData.map((work, index)=>{

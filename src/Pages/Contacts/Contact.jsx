@@ -6,7 +6,7 @@ import locIcon from '../../assets/location_icon.svg';
 
 const Contact = () => {
   return (
-    <div className='contact'>
+    <div id='contact' className='contact'>
         <TitleBox title={'Get in touch'}/>
         <div className="contact-section">
             <div className="contact-left">

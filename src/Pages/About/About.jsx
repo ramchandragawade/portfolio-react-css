@@ -3,7 +3,7 @@ import profileImg from '../../assets/about_profile.svg';
 import TitleBox from '../../components/TitleBox/TitleBox';
 const About = () => {
   return (
-    <div className='about'>
+    <div id='about' className='about'>
         <TitleBox title={'About me'}/>
         <div className="about-sections">
             <div className="about-left">
