@@ -10,13 +10,12 @@
 .works-container {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    gap: 40px;
+    gap: 30px;
 }
 
 .works-container img {
     box-sizing: border-box;
-    width: 400px;
-    height: 250px;
+    width: 100%;
     padding: 10px;
     transition: 0.3s;
     cursor: pointer;
@@ -31,7 +30,7 @@
 
 .works-showmore {
     display: flex;
-    gap: 15px;
+    gap: 10px;
     border-radius: 50px;
     border: 2px solid white;
     padding: 20px 40px;
@@ -47,16 +46,20 @@
     transition: 0.6s;
 }
 
+.mywork-showmore img {
+    width: 25px;
+}
+
 @media (max-width:1024px) {
     .works {
         gap: 50px;
-        margin: 50px 70px;
+        margin: 50px 6%;
         align-items: start;
     }
 
     .works-container {
         grid-template-columns: 1fr 1fr;
-        gap: 30px;
+        gap: 20px;
     }
 
     .works-container img{
@@ -66,8 +69,7 @@
 
     .works-showmore {
         padding: 15px 30px;
-        font-size: 18px;
+        font-size: 16px;
         margin: 10px auto;
-        cursor: pointer;
     }
 }

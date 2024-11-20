@@ -3,14 +3,14 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    gap: 60px;
-    margin: 80px 10%;
+    gap: 80px;
+    margin: 70px 10%;
 }
 
 .services-container {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    gap: 40px;
+    gap: 30px;
     margin-bottom: 80px;
 }
 
@@ -19,7 +19,7 @@
     flex-direction: column;
     justify-content: center;
     gap: 10px;
-    padding: 40px;
+    padding: 30px;
     border-radius: 10px;
     border: 2px solid white;
     transition: 0.4s;
@@ -27,12 +27,12 @@
 }
 
 .services-format h3 {
-    font-size: 28px;
+    font-size: 24px;
     font-weight: 600;
 }
 
 .services-format h2 {
-    font-size: 38px;
+    font-size: 30px;
     font-weight: 800;
     background: linear-gradient(270deg,#DF8908 50%,#B415FF 100%);
     background-clip: text;
@@ -65,19 +65,18 @@
     .services {
         align-items: start;
         gap: 70px;
-        margin: 20px 70px;
+        margin: 20px 6%;
     }
     .services-format {
-        gap: 20px;
-        padding: 32px;
+        gap: 10px;
+        padding: 20px;
     }
     .services-format h2 {
-        font-size: 28px;
+        font-size: 22px;
     }
     .services-format p {
-        font-size: 18px;
-        line-height: 32px;
-        max-width: 300px;
+        font-size: 16px;
+        line-height: 26px;
     }
 
     .services-readmore img {
@@ -86,6 +85,6 @@
 
     .services-container {
         grid-template-columns: 1fr 1fr;
-        gap: 30px;
+        gap: 20px;
     }
 }

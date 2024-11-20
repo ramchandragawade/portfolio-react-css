@@ -1,7 +1,7 @@
 import './PatternBtn.css';
-const PatternBtn = ({children}) => {
+const PatternBtn = ({type, children}) => {
   return (
-    <div className="nav-connect">{children}</div>
+    <div className={`${type==='subscribe'?'btn-suscribe':'nav-connect'}`} >{children}</div>
   )
 }
 

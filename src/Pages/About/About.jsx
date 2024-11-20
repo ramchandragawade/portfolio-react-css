@@ -22,7 +22,7 @@ const About = () => {
                 </div>
             </div>
         </div>
-        <div className="aboout-honors">
+        <div className="about-honors">
             <div className="about-honor">
                 <h1>5+</h1>
                 <p>YEARS OF EXPERIENCE</p>
