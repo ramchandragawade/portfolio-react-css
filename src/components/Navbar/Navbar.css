@@ -71,7 +71,7 @@
         background-color: #1f0016;
         width: 350px;
         height: 100%;
-        z-index: 2;
+        z-index: 100;
         transition: right 0.5s;
         right: -350px;
     }
