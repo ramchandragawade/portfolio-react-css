@@ -12,7 +12,7 @@ const Navbar = () => {
             <li>Projects</li>
             <li>Contact</li>
         </ul>
-      <PatternBtn text={'Connect With Me'}/>
+      <PatternBtn>Connect With Me</PatternBtn>
     </div>
   )
 }

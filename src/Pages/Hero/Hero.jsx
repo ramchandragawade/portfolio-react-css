@@ -9,7 +9,7 @@ const Hero = () => {
         <h1><span>I am Alex Bennet</span>, front end developer based in USA.</h1>
         <p>I am a frontend developer from California, USA with 10 years of experience in multiple companies like Microsoft, Tesla and Apple. </p>
         <div className='hero-action'>
-            <PatternBtn text={'Connect With Me'}/>
+            <PatternBtn>Connect With Me</PatternBtn>
             <div className="hero-resume">My resume</div>
         </div>
     </div>
