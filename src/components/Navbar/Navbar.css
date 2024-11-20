@@ -11,4 +11,17 @@
     list-style: none;
     gap: 60px;
     font-size: 20px;
+    cursor: pointer;
+}
+
+.nav-menu li {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    cursor: pointer;
+}
+
+.nav-menu li img {
+    display: flex;
+    margin: auto;
 }
