@@ -57,6 +57,7 @@
     flex-direction: column;
     align-items: start;
     gap: 20px;
+    margin-bottom: 50px;
 }
 
 .contact-right label {
@@ -70,8 +71,8 @@
     width: 100%;
     padding: 18px 0 18px 20px;
     border-radius: 4px;
-    background-color: #32323c;
-    color: #a0a0a0;
+    background: #32323c !important;
+    color: #a0a0a0 !important;
     font-family: Outfit;
 }
 
@@ -80,21 +81,18 @@
     width: 100%;
     padding: 20px;
     border-radius: 4px;
-    background-color: #32323c;
-    color: #a0a0a0;
+    background: #32323c !important;
+    color: #a0a0a0 !important;
     font-family: Outfit;
 }
 
 .contact-submit {
-
     padding: 20px 40px;
     border-radius: 50px;
     font-size: 16px;
     background: linear-gradient(267deg,#DA7C25 .36%,#B923E1 102.06%);
-
     border: none;
     color: white;
-    margin-bottom: 50px;
     cursor: pointer;
     transition: 0.3s;
 }
@@ -102,4 +100,12 @@
 .contact-submit:hover {
     transform: scale(1.1);
     transition: 0.3s;
+}
+
+.error-cls {
+    background-color: white;
+    font-size: 18px;
+    font-family: Outfit;
+    padding: 7px 20px;
+    border-radius: 20px;
 }
