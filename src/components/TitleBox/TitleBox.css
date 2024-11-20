@@ -20,3 +20,15 @@
     right: 0;
     z-index: -1;
 }
+
+@media (max-width:1024px) {
+    .title-box h1{
+        font-size: 50px;
+        padding: 0;
+    }
+
+    .title-box img {
+        width: 130px;
+        right: -20px;
+    }
+}

@@ -97,3 +97,55 @@
     font-size: 18px;
     font-weight: 500;
 }
+
+
+@media (max-width:1024px) {
+    .about {
+        gap: 80px;
+        margin: 80px 70px;
+        align-items: start;
+    }
+
+    .about-sections {
+        flex-direction: column;
+    }
+
+    .about-left {
+        display: none;
+    }
+
+    .about-para {
+        font-size: 18px;
+        line-height: 32px;
+    }
+
+    .about-skill {
+        gap: 20px;
+        align-items: center;
+    }
+
+    .about-skill p {
+        font-size: 20px;
+    }
+    .about-skill hr {
+        font-size: 20px;
+        height: 6px;
+    }
+    .about-honors {
+        justify-content: space-between;
+    }
+    .about-honor {
+        gap: 10px;
+    }
+
+    .about-honor h1 {
+        font-size: 34px;
+        font-weight: 700;
+    }
+
+    .about-honor p {
+        text-align: center;
+        font-size: 16px;
+    }
+
+}
