@@ -1,5 +1,5 @@
 import './About.css';
-import profileImg from '../../assets/about_profile.svg';
+import heroImg from '../../assets/raaj-avatar-dif.svg';
 import TitleBox from '../../components/TitleBox/TitleBox';
 const About = () => {
   return (
@@ -7,7 +7,7 @@ const About = () => {
         <TitleBox title={'About me'}/>
         <div className="about-sections">
             <div className="about-left">
-                <img src={profileImg} alt="profile img" />
+                <img src={heroImg} alt="profile img" />
             </div>
             <div className="about-right">
                 <div className="about-para">
