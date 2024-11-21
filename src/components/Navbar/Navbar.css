@@ -18,6 +18,12 @@
     flex-direction: column;
     gap: 5px;
     cursor: pointer;
+    transition: 0.3s;
+}
+
+.nav-menu li:hover {
+    transform: scale(1.05);
+    transition: 0.3s;
 }
 
 .nav-menu li img {
@@ -61,6 +67,7 @@
         left: 290px;
         width: 30px;
         cursor: pointer;
+        margin-bottom: 100px;
     }
     .nav-menu {
         position: fixed;

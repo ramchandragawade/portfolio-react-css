@@ -14,7 +14,7 @@ const Footer = () => {
             <div className="footer-top-right">
                 <div className="footer-email-input">
                     <img src={userIcon} alt="" />
-                    <input type="email" placeholder='Enter your email'/>
+                    <input type="email" name='email-sub' id='email-sub' placeholder='Enter your email'/>
                 </div>
                 <PatternBtn type={'subscribe'}>Subscribe</PatternBtn>
             </div>

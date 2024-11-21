@@ -60,16 +60,16 @@ const Contact = () => {
                     </div>
                 </div>
             </div>
-            <form className='contact-right' onSubmit={sendEmail} ref={formRef}>
+            <form className='contact-right' onSubmit={sendEmail} ref={formRef} autoComplete='on'>
                 <label htmlFor="name">Your Name</label>
-                <input type="text" placeholder='Enter your name' name='name' id='name' required/>
+                <input type="text" placeholder='Enter your name' name='name' id='name' required autoComplete='name'/>
 
-                <label htmlFor="">Your Email</label>
-                <input type="email" placeholder='Enter your email id' name='email' id='email' required/>
+                <label htmlFor="email">Your Email</label>
+                <input type="email" placeholder='Enter your email id' name='email' id='email' autoComplete='email' required/>
 
                 <label htmlFor="message">Write your message here</label>
-                <textarea name="message" id="message" placeholder='Enter your message' rows={8} required></textarea>
-                <button className='contact-submit' type='submit'>Submit now</button>
+                <textarea name="message" id="message" placeholder='Enter your message' rows={8} autoComplete='off' required></textarea>
+                <button className='contact-submit' type='submit' name='submit' id='submit'>Submit now</button>
                 {error.error !== null && <p className='error-cls' style={{ color: error.error ?'red':'green'}} >{error.message}</p> }
             </form>
         </div>
