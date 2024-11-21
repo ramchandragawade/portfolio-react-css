@@ -2,7 +2,7 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-    margin: 0px 7%;
+    margin: 5px 7%;
     position: sticky;
     top: 0;
     backdrop-filter: blur(20px);
