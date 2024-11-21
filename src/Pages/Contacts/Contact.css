@@ -121,15 +121,22 @@
 
 @media (max-width:1024px) {
     .contact {
-        gap: 40px;
+        gap: 30px;
         margin: 50px 6%;
         align-items: start;
     }
     .contact-section {
         flex-direction: column;
     }
+    .contact-left {
+        margin-bottom: 10px;
+        gap: 20px;
+    }
     .contact-left h1 {
         font-size: 35px;
+    }
+    .contact-left p {
+        max-width: 100%;
     }
     .contact-det {
         gap: 15px;
@@ -150,9 +157,5 @@
     .contact-submit {
         font-size: 18px;
         padding: 15px 40px;
-    }
-
-    .contact-left {
-        margin-bottom: 30px;
     }
 }
