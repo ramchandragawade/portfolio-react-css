@@ -6,6 +6,7 @@ import underlineImg from '../../assets/nav_underline.svg';
 import menuOpen from '../../assets/menu_open.svg';
 import menuClose from '../../assets/menu_close.svg';
 import AnchorLink from 'react-anchor-link-smooth-scroll';
+import themePattern from '../../assets/theme_pattern.svg';
 const Navbar = () => {
   const [menu, setMenu] = useState('home'); 
   const menuRef = useRef();
@@ -19,7 +20,11 @@ const Navbar = () => {
 
   return (
     <div className='navbar'>
-        <img src={logo} alt="" />
+      <div className="logo-container">
+        <div className="logo-cls">
+          <p>Ram🌙</p><img src={themePattern} alt="Ramchandra" />
+        </div>
+      </div>
         <img src={menuOpen} onClick={openMenu} alt="Nav" className='nav-open'/>
         <ul ref={menuRef} className='nav-menu'>
           <img src={menuClose} onClick={closeMenu} alt="" className="nav-close" />
