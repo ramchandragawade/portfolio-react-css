@@ -1,5 +1,4 @@
 import './Hero.css';
-import profileImg from '../../assets/profile_img.svg';
 import heroImg from '../../assets/mf-avatar.svg';
 import PatternBtn from '../../components/Buttons/PatternBtn';
 import AnchorLink from 'react-anchor-link-smooth-scroll';

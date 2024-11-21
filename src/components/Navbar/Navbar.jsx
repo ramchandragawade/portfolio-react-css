@@ -6,7 +6,6 @@ import menuOpen from '../../assets/menu_open.svg';
 import menuClose from '../../assets/menu_close.svg';
 import AnchorLink from 'react-anchor-link-smooth-scroll';
 import themePattern from '../../assets/theme_pattern.svg';
-import instaLogo from '../../assets/instagram.svg';
 import linkedinLogo from '../../assets/linkedin.svg';
 import githubLogo from '../../assets/github.svg';
 const Navbar = () => {

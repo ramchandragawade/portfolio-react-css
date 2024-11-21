@@ -9,7 +9,6 @@ import Works from "./Pages/Works/Works"
 const App = () => {
   return (
     <div>
-      <div id="top"></div>
       <Navbar/>
       <Hero/>
       <About/>

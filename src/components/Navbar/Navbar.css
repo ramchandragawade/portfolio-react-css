@@ -2,7 +2,10 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-    margin: 20px 10%;
+    margin: 0px 7%;
+    position: sticky;
+    top: 0;
+    backdrop-filter: blur(20px);
 }
 .logo-container {
     display: flex;
@@ -86,6 +89,7 @@
 @media(max-width:1300px) {
     .navbar {
         margin: 20px 6%;
+        backdrop-filter: none;
     }
 
     .navbar .nav-connect {
