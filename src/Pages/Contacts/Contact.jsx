@@ -39,7 +39,7 @@ const Contact = () => {
         );
     }
     return (
-    <div id='contact' className='contact'>
+    <section id='contact' className='contact'>
         <TitleBox title={'Get in touch'}/>
         <div className="contact-section">
             <div className="contact-left">
@@ -72,7 +72,7 @@ const Contact = () => {
                 {error.error !== null && <p className='error-cls' style={{ color: error.error ?'red':'green'}} >{error.message}</p> }
             </form>
         </div>
-    </div>
+    </section>
   )
 }
 

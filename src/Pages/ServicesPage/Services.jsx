@@ -5,7 +5,7 @@ import arrowIcon from '../../assets/arrow_icon.svg';
 
 const Services = () => {
   return (
-    <div id='services' className='services'>
+    <section id='services' className='services'>
         <TitleBox title={'Services'}/>
         <div className="services-container">
           {servicesData.map((service, index)=>{
@@ -20,7 +20,7 @@ const Services = () => {
             </div>
           })}
         </div>
-    </div>
+    </section>
   )
 }
 

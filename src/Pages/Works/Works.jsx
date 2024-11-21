@@ -4,7 +4,7 @@ import workData from '../../assets/mywork_data';
 import arrowIcon from '../../assets/arrow_icon.svg'
 const Works = () => {
   return (
-    <div id='works' className='works'>
+    <section id='works' className='works'>
         <TitleBox title={'My latest work'}/>
         <div className="works-container">
             {workData.map((work, index)=>{
@@ -15,7 +15,7 @@ const Works = () => {
             <p>Show More</p>
             <img src={arrowIcon} alt="" />
         </div>
-    </div>
+    </section>
   )
 }
 

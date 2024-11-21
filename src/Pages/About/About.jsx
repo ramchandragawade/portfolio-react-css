@@ -3,7 +3,7 @@ import heroImg from '../../assets/raaj-avatar-dif.svg';
 import TitleBox from '../../components/TitleBox/TitleBox';
 const About = () => {
   return (
-    <div id='about' className='about'>
+    <section id='about' className='about'>
         <TitleBox title={'About me'}/>
         <div className="about-sections">
             <div className="about-left">
@@ -38,7 +38,7 @@ const About = () => {
                 <p>HAPPY CLIENTS</p>
             </div>
         </div>
-    </div>
+    </section>
   )
 }
 

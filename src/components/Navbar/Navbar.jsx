@@ -1,6 +1,6 @@
 import './Navbar.css';
 import PatternBtn from '../Buttons/PatternBtn';
-import { useRef, useState } from 'react';
+import { useEffect, useRef, useState } from 'react';
 import underlineImg from '../../assets/nav_underline.svg';
 import menuOpen from '../../assets/menu_open.svg';
 import menuClose from '../../assets/menu_close.svg';
@@ -11,6 +11,24 @@ import githubLogo from '../../assets/github.svg';
 const Navbar = () => {
   const [menu, setMenu] = useState('home'); 
   const menuRef = useRef();
+  useEffect(()=>{
+    const handleScroll = ()=>{
+      const sections = document.querySelectorAll('section');
+      let currentSection = '';
+      sections.forEach(section => {
+        const sectionTop = section.offsetTop;
+        const sectionHeight = section.offsetHeight;
+        if (window.scrollY >= sectionTop - sectionHeight / 2.5) {
+          currentSection = section.getAttribute('id');
+        }
+      });
+      setMenu(currentSection);
+    }
+    window.addEventListener('scroll', handleScroll);
+    return () => {
+      window.removeEventListener('scroll', handleScroll);
+    };
+  },[]);
   const openMenu = ()=>{
     menuRef.current.style.right = "0";
   }
