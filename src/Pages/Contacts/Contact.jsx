@@ -48,12 +48,11 @@ const Contact = () => {
                 <div className="contact-details">
                     <div className="contact-det">
                         <img src={mailIcon} alt="Email address" />
-                        <p>contact@ramchandragawade.in</p>
+                        <a href="mailto:contact@ramchandragawade.in" className='email-link'>
+                            <p>contact@ramchandragawade.in</p>
+                        </a>
                     </div>
-                    <div className="contact-det">
-                        <img src={callIcon} alt="Phone number" />
-                        <p>+91-8082779679</p>
-                    </div>
+                    
                     <div className="contact-det">
                         <img src={locIcon} alt="Location" />
                         <p>Mumbai, India</p>

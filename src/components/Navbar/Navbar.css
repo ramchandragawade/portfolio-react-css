@@ -6,6 +6,7 @@
     position: sticky;
     top: 0;
     backdrop-filter: blur(20px);
+    z-index: 99;
 }
 .logo-container {
     display: flex;
@@ -86,7 +87,7 @@
     width: 20px;
 }
 
-@media(max-width:1300px) {
+@media(max-width:1200px) {
     .navbar {
         margin: 20px 6%;
         backdrop-filter: none;
