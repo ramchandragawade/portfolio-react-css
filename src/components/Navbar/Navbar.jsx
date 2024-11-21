@@ -1,5 +1,4 @@
 import './Navbar.css';
-import logo from "../../assets/logo.svg"
 import PatternBtn from '../Buttons/PatternBtn';
 import { useRef, useState } from 'react';
 import underlineImg from '../../assets/nav_underline.svg';

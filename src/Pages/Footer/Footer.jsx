@@ -1,5 +1,5 @@
 import './Footer.css';
-import footerLogo from '../../assets/footer_logo.svg';
+import themePattern from '../../assets/theme_pattern.svg';
 import userIcon from '../../assets/user_icon.svg';
 import PatternBtn from '../../components/Buttons/PatternBtn';
 
@@ -8,7 +8,11 @@ const Footer = () => {
     <div className='footer'>
         <div className="footer-top">
             <div className="footer-top-left">
-                <img src={footerLogo} alt="" />
+                <div className="footer-logo-container">
+                    <div className="logo-cls">
+                    <p>Ram🌙</p><img src={themePattern} alt="Ramchandra" />
+                    </div>
+                </div>
                 <p>I am a frontend developer from, USA with 10 years of experience in companies like Microsoft, Tesla and Apple.</p>
             </div>
             <div className="footer-top-right">

@@ -55,6 +55,28 @@
     margin-bottom: 50px;
 }
 
+.footer-logo-container {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: center;
+}
+.logo-cls {
+    position: relative;
+}
+.logo-cls p {
+    font-size: 30px;
+    font-weight: 600;
+}
+
+.logo-cls img {
+    position: absolute;
+    bottom: -2px;
+    z-index: -1;
+    width: 75px;
+    right: -5px;
+}
+
 @media (max-width:1024px) {
     .footer {
         margin: 50px 6%;
