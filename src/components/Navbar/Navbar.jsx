@@ -37,8 +37,8 @@ const Navbar = () => {
           <li className='menu-item'><AnchorLink className='anchor-link' offset={50} href='#contact'><p onClick={()=>{setMenu('contact')}}>Contact</p></AnchorLink>{menu==='contact' && <img src={underlineImg} alt="contact page link" /> }</li>
           <div className="social-container">
             <ul className='nav-socials'>
-              <li><img src={linkedinLogo} alt="" /></li>
-              <li><img src={githubLogo} alt="" /></li>
+              <li><a href="https://www.linkedin.com/in/ramchandra-gawade/" target="_blank"><img src={linkedinLogo} alt="" /></a></li>
+              <li><a href="https://github.com/ramchandragawade" target="_blank"><img src={githubLogo} alt="" /></a></li>
             </ul>
           </div>
         </ul>
