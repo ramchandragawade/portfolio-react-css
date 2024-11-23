@@ -7,9 +7,9 @@ const Hero = () => {
   return (
     <section id='home' className='hero'>
         <img src={heroImg} alt="Profile Image" />
-        <h1><span>Hi! I am Ramchandra Gawade</span>,<br />Senior Software Engineer based in Mumbai, India.</h1>
-        <p>With over 5 years of experience, I specialize in front-end development.<br />
-        Along the way, I’ve also explored full-stack development with the MERN stack through various hands-on projects
+        <h1><span className='formatted-txt'>Hi! I am Ramchandra Gawade</span>,<br />Senior Software Engineer based in Mumbai, India.</h1>
+        <p>With over 5 years of experience, I specialize in <span className='formatted-txt-sm'>front-end development</span>.<br />
+        Along the way, I’ve also explored <span className='formatted-txt-sm'>full-stack development</span> with the MERN stack through various hands-on projects
         </p>
         <div className='hero-action'>
         <AnchorLink className='anchor-link' offset={50} href='#contact'><PatternBtn>Connect With Me</PatternBtn></AnchorLink>            
