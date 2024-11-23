@@ -1,5 +1,4 @@
 import './Navbar.css';
-import PatternBtn from '../Buttons/PatternBtn';
 import { useEffect, useRef, useState } from 'react';
 import underlineImg from '../../assets/nav_underline.svg';
 import menuOpen from '../../assets/menu_open.svg';
@@ -8,6 +7,7 @@ import AnchorLink from 'react-anchor-link-smooth-scroll';
 import themePattern from '../../assets/theme_pattern.svg';
 import linkedinLogo from '../../assets/linkedin.svg';
 import githubLogo from '../../assets/github.svg';
+import Logo from '../Logo/Logo';
 const Navbar = () => {
   const [menu, setMenu] = useState('home'); 
   const menuRef = useRef();
@@ -30,23 +30,21 @@ const Navbar = () => {
     };
   },[]);
   const openMenu = ()=>{
-    menuRef.current.style.right = "0";
+    menuRef.current.classList.remove('-right-96');
+    menuRef.current.classList.add('right-0');
   }
 
   const closeMenu = ()=>{
-    menuRef.current.style.right = "-350px";
+    menuRef.current.classList.remove('right-0');
+    menuRef.current.classList.add('-right-96');
   }
 
   return (
-    <div className='navbar'>
-      <div className="logo-container">
-        <div className="logo-cls">
-          <p>Ram🌙</p><img src={themePattern} alt="Ramchandra" />
-        </div>
-      </div>
-        <img src={menuOpen} onClick={openMenu} alt="Nav" className='nav-open'/>
-        <ul ref={menuRef} className='nav-menu'>
-          <img src={menuClose} onClick={closeMenu} alt="" className="nav-close" />
+    <div className='flex sticky top-0 lg:justify-around lg:backdrop-blur-md z-50 my-5 mx-[6%] lg:my-1 lg:mx-[7%] p-1'>
+      <Logo/>
+        <img src={menuOpen} onClick={openMenu} alt="Nav" className='block lg:hidden fixed cursor-pointer right-8'/>
+        <ul ref={menuRef} className='list-none flex flex-col lg:flex-row fixed items-start top-0 gap-8 bg-[#1f0016] lg:bg-inherit w-96 lg:w-max h-full z-50 -right-96 transition-right duration-300 lg:static lg:items-center lg:justify-center lg:gap-16 lg:text-xl'>
+          <img src={menuClose} onClick={closeMenu} alt="" className="block lg:hidden relative top-8 left-72 w-7 cursor-pointer mb-24" />
           <li className='menu-item'><AnchorLink className='anchor-link' offset={50} href='#top'><p onClick={()=>{setMenu('home')}}>Home</p></AnchorLink>{menu==='home' && <img src={underlineImg} alt="Home link" /> }</li>
           <li className='menu-item'><AnchorLink className='anchor-link' offset={50} href='#about'><p onClick={()=>{setMenu('about')}}>About me</p></AnchorLink>{menu==='about' && <img src={underlineImg} alt="about link" /> }</li>
           <li className='menu-item'><AnchorLink className='anchor-link' offset={50} href='#services'><p onClick={()=>{setMenu('services')}}>Services</p></AnchorLink>{menu==='services' && <img src={underlineImg} alt="services link" /> }</li>
@@ -60,8 +58,7 @@ const Navbar = () => {
             </ul>
           </div>
         </ul>
-
-        <AnchorLink className='anchor-link' offset={50} href='#contact'><PatternBtn>Connect With Me</PatternBtn></AnchorLink>
+        {/* <AnchorLink className='anchor-link' offset={50} href='#contact'><PatternBtn>Connect With Me</PatternBtn></AnchorLink> */}
     </div>
   )
 }
