@@ -30,13 +30,11 @@ const Navbar = () => {
     };
   },[]);
   const openMenu = ()=>{
-    menuRef.current.classList.remove('-right-96');
-    menuRef.current.classList.add('right-0');
+    menuRef.current.classList.replace('-right-96', 'right-0');
   }
 
   const closeMenu = ()=>{
-    menuRef.current.classList.remove('right-0');
-    menuRef.current.classList.add('-right-96');
+    menuRef.current.classList.replace('right-0', '-right-96');
   }
 
   return (
