@@ -12,6 +12,8 @@ import portrainerLogo from '../../assets/portainer.svg';
 import postmanLogo from '../../assets/postman.svg';
 import jasmineLogo from '../../assets/jasmine.svg';
 import workExpLogo from '../../assets/work-exp.svg';
+import necLogo from '../../assets/nec_logo.jpg';
+
 
 const Experience = () => {
 	return (
