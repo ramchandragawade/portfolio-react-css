@@ -1,28 +1,7 @@
 .nav-connect {
-    padding: 20px 40px;
-    border-radius: 50px;
-    font-size: 16px;
-    background: linear-gradient(267deg,#DA7C25 .36%,#B923E1 102.06%);
-    cursor: pointer;
-    transition: 0.5s;
+    @apply py-5 px-10 rounded-[50px] text-base cursor-pointer duration-500 bg-custom-gradient hover:scale-105
 }
 
 .btn-suscribe {
-    font-size: 16px;
-    padding: 18px 40px;
-    border-radius: 50px;
-    background: linear-gradient(264deg,#DF8908 -5.09%,#B415FF 106.28%);
-    cursor: pointer;
-    transition: .3s;
-}
-
-.nav-connect:hover{
-    transform: scale(1.05);
-}
-
-@media (max-width:1024px) {
-    .btn-suscribe {
-        font-size: 14px;
-        padding: 14px 20px;
-    }
+    @apply text-sm lg:text-base py-3.5 px-5 lg:py-[18px] lg:px-10 bg-custom-gradient cursor-pointer rounded-[50px] hover:scale-105 duration-300
 }
