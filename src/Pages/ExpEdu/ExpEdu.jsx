@@ -158,10 +158,16 @@ const ExpEdu = () => {
               <h4 className="flex items-center my-1 text-base lg:text-lg font-semibold text-gray-900 dark:text-slate-400">
 								Key Achievements:
 							</h4>
-              <ul className='flex flex-col list-disc marker:text-[#B415FF] px-4 gap-1'>
-                <li>Successfully launched the NEC Connect GO application in collaboration with the UK Athena Consortium and Metropolitan Police, ensuring smooth operations in live production.</li>
-                <li>Honored with several awards, including the Feather in the Cap, Self-Directed Learning Award, The Achievers, and the Rising Star Award.</li>
-                <li>Consistently delivered high-quality releases, achieving a record of 3 releases in 2 quarters, while ensuring seamless integration with backend services and collaborating effectively with cross-functional teams to drive project success.</li>
+              <ul className='flex flex-col text-base lg:text-lg list-disc marker:text-[#B415FF] px-4 gap-1'>
+                <li>Successfully launched the NEC Connect GO application in collaboration with the <span className='font-semibold italic text-[#DF8908]'> UK Athena Consortium and Metropolitan Police</span>, ensuring smooth operations in live production.</li>
+                <li>Received several notable honors, including the 
+                {/* <span className='bg-custom-gradient-rev-light text-transparent bg-clip-text'> Fea</span>ther in the Cap</span>, 
+                <span className='bg-custom-gradient-rev-light text-transparent bg-clip-text'> Self-Directed Learning Award</span>,
+                <span className='bg-custom-gradient-rev-light text-transparent bg-clip-text'> The Achievers</span> &
+                <span className='bg-custom-gradient-rev-light text-transparent bg-clip-text'> The Rising Star Award</span> */}
+                <span className='font-semibold italic text-[#DF8908]'> Feather in the Cap, Self-Directed Learning Award, The Achievers & The Rising Star Award</span>
+                </li>
+                <li>Consistently delivered high-quality releases, while ensuring seamless integration with backend services and collaborating effectively with cross-functional teams to drive project success.</li>
                 <li>Played a key role in mentoring new hires and fostering a collaborative team environment, accelerating onboarding and skill development.</li>
               </ul>
 							{/* <ol className="relative border-gray-200 dark:border-gray-700">
