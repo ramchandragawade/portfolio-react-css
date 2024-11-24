@@ -38,7 +38,9 @@ const Navbar = () => {
 
   return (
     <div className='flex sticky top-0 lg:justify-around lg:backdrop-blur-md z-50 my-5 mx-[6%] lg:my-1 lg:mx-[7%] py-1'>
-      <Logo/>
+      <AnchorLink href='#top'>
+        <Logo/>
+      </AnchorLink>
         <img src={menuOpen} onClick={openMenu} alt="Nav" className='block lg:hidden fixed cursor-pointer right-8'/>
         <ul ref={menuRef} className='list-none flex flex-col lg:flex-row fixed items-start top-0 gap-8 bg-[#1f0016] lg:bg-inherit w-96 lg:w-max h-full z-50 -right-96 transition-right duration-300 lg:static lg:items-center lg:justify-center lg:gap-16 lg:text-xl'>
           <img src={menuClose} onClick={closeMenu} alt="" className="block lg:hidden relative top-8 left-72 w-7 cursor-pointer mb-24" />
