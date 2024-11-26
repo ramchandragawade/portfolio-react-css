@@ -13,7 +13,7 @@ const Footer = () => {
                     <p>Ram🌙</p><img src={themePattern} alt="Ramchandra" />
                     </div>
                 </div>
-                <p>I am a frontend developer from, USA with 10 years of experience in companies like Microsoft, Tesla and Apple.</p>
+                <p>I am a frontend developer from Mumbai, India with 5 years of experience.</p>
             </div>
             <div className="footer-top-right">
                 <div className="footer-email-input">
@@ -25,7 +25,7 @@ const Footer = () => {
         </div>
         <hr />
         <div className="footer-bottom">
-            <div className="footer-bottom-left">© 2023 Alex Bennett. All rights reserved.</div>
+            <div className="footer-bottom-left">© 2024 Ramchandra Gawade. All rights reserved.</div>
             <div className="footer-bottom-right">
                 <p>Term of Services</p>
                 <p>Privacy Policy</p>
