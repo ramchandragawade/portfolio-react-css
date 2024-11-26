@@ -17,29 +17,29 @@ import necLogo from '../../assets/nec_logo.jpg';
 
 const Experience = () => {
 	return (
-		<div className="p-2 mt-10">
+		<div className="p-2 mb-20 lg:mb-36">
 			<h1 className="text-3xl my-5 font-semibold">Experience</h1>
 			<ol className="relative border-s border-gray-200 dark:border-gray-700 ml-[1%]">
 				<li className="mx-6">
 					<span className="absolute flex items-center justify-center w-6 h-6 bg-white rounded-full -start-3 ring-8 ring-white">
 						<img src={workExpLogo} alt="" />
 					</span>
-					<h3 className="flex items-center mx-1 mb-1 text-lg font-semibold text-gray-900 dark:text-white">
+					<h3 className="flex items-center mx-1 mb-1 text-base md:text-lg font-semibold text-gray-900 dark:text-white">
 						NEC Software Solutions (India) Pvt Ltd.
-						<span className="bg-blue-100 text-blue-800 text-sm font-medium me-2 px-2.5 py-0.5 rounded dark:bg-blue-900 dark:text-blue-300 ms-3">
+						<span className="bg-blue-100 text-blue-900 text-xs md:text-sm font-medium me-2 px-2.5 py-0.5 rounded dark:bg-[#a226dc] dark:text-white ms-3">
 							Latest
 						</span>
 					</h3>
-					<h4 className="flex items-center mb-1 text-lg font-semibold text-gray-900 dark:text-slate-400">
+					<h4 className="flex items-center mb-1 text-base md:text-lg font-semibold text-gray-900 dark:text-slate-400">
 						Current Role: Senior Software Engineer
 					</h4>
-					<time className="block mb-2 text-base font-normal leading-none text-gray-400 dark:text-gray-400">
+					<time className="block mb-2 text-sm md:text-base font-semibold leading-none text-gray-400 dark:text-gray-400">
 						July 2019 - Present
 					</time>
 					<h4 className="flex items-center mb-1 text-base lg:text-lg font-semibold text-gray-900 dark:text-slate-300">
 						With 5+ years at NEC Software Solutions, I progressed from
 						Associate to Senior Software Engineer by specializing in
-						ExtJS/Sencha Framework (MVVM architecture) for Policing & Public Safety,
+						ExtJS/Sencha Framework (MVVM architecture) for Policing & Public Safety software,
 						delivering high-quality releases, ensuring seamless
 						backend integration, and collaborating with
 						cross-functional teams to drive success.
@@ -147,7 +147,7 @@ const Experience = () => {
 						<li>
 							Facilitated the successful launch of the NEC Connect
 							GO application in collaboration with the
-							<span className="font-semibold italic text-[#DF8908]">
+							<span className="font-semibold italic text-[#B415FF]">
 								{' '}
 								UK Athena Consortium and Metropolitan Police
 							</span>
@@ -159,7 +159,7 @@ const Experience = () => {
                 <span className='bg-custom-gradient-rev-light text-transparent bg-clip-text'> Self-Directed Learning Award</span>,
                 <span className='bg-custom-gradient-rev-light text-transparent bg-clip-text'> The Achievers</span> &
                 <span className='bg-custom-gradient-rev-light text-transparent bg-clip-text'> The Rising Star Award</span> */}
-							<span className="font-semibold italic text-[#DF8908]">
+							<span className="font-semibold italic text-[#B415FF]">
 								{' '}
 								Feather in the Cap, Self-Directed Learning
 								Award, The Achievers & The Rising Star Award
@@ -173,7 +173,7 @@ const Experience = () => {
 						</li> */}
 						<li>
 							Played a key role in
-							<span className="font-semibold italic text-[#DF8908]">
+							<span className="font-semibold italic text-[#B415FF]">
 								{' '}
 								mentoring{' '}
 							</span>
