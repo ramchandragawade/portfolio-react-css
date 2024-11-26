@@ -1,7 +1,7 @@
 import './Footer.css';
 import themePattern from '../../assets/theme_pattern.svg';
 import userIcon from '../../assets/user_icon.svg';
-import PatternBtn from '../../components/Buttons/PatternBtn';
+import PatternBtn from '../Buttons/PatternBtn';
 
 const Footer = () => {
   return (

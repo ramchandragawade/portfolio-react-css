@@ -3,7 +3,8 @@ import heroImg from '../../assets/raaj-avatar-dif.svg';
 import TitleBox from '../../components/TitleBox/TitleBox';
 const About = () => {
   return (
-    <section id='about' className='about'>
+    <section>
+    {/* <section id='about' className='about'> */}
         <TitleBox title={'About me'}/>
         <div className="about-sections">
             <div className="about-left">
