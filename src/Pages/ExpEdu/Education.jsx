@@ -1,9 +1,90 @@
-import React from 'react';
+import workExpLogo from '../../assets/work-exp.svg';
+import gradLogo from '../../assets/grad.svg';
+import diplomaLogo from '../../assets/diploma.svg';
+import schoolLogo from '../../assets/school.svg';
 
 const Education = () => {
 	return (
 		<div className="p-2">
 			<h1 className="text-3xl my-5 font-semibold">Education</h1>
+			<ol className="relative border-s border-gray-200 dark:border-gray-700 ml-[1%]">
+				<li className="mb-2 mx-6">
+					<span className="absolute flex items-center justify-center w-6 h-6 bg-white rounded-full -start-3 ring-8 ring-white">
+						<img src={gradLogo} alt="" />
+					</span>
+					<h3 className="flex items-center mx-1 mb-1 text-lg font-semibold text-gray-900 dark:text-white">
+						Vidyalankar Institute of Technology, Mumbai
+					</h3>
+					<div className="">
+						<h4 className="flex items-center mb-1 text-lg font-semibold text-gray-900 dark:text-slate-300">
+						Bachelor of Engineering - BE (Computer Engineering)
+						</h4>
+						<time className="block mb-2 text-base font-normal leading-none text-gray-400 dark:text-gray-400">
+							July 2016 - Jun 2019
+						</time>
+					</div>
+					<h4 className="flex items-center mb-1 text-base lg:text-lg font-semibold text-gray-700 dark:text-slate-300">
+						Grade: 8.7 CGPA
+					</h4>
+				</li>
+				<li className="mb-2 mx-6">
+					<span className="absolute flex items-center justify-center w-6 h-6 bg-white rounded-full -start-3 ring-8 ring-white">
+						<img src={diplomaLogo} alt="" />
+					</span>
+					<h3 className="flex items-center mx-1 mb-1 text-lg font-semibold text-gray-900 dark:text-white">
+					Kala Vidya Mandir Polytechnic, Mumbai
+					</h3>
+					<div className="">
+						<h4 className="flex items-center mb-1 text-lg font-semibold text-gray-900 dark:text-slate-300">
+						Diploma in Computer Engineering
+						</h4>
+						<time className="block mb-2 text-base font-normal leading-none text-gray-400 dark:text-gray-400">
+							July 2013 - Jun 2016
+						</time>
+						{/* <time className="block mb-2 text-base font-normal leading-none text-gray-400 dark:text-gray-400">
+							July 2015 - Jun 2016
+						</time> */}
+					</div>
+					<h4 className="flex items-center mb-1 text-base lg:text-lg font-semibold text-gray-700 dark:text-slate-300">
+						Grade: 85%
+					</h4>
+				</li>
+				{/* <li className="mb-2 mx-6">
+					<span className="absolute flex items-center justify-center w-6 h-6 bg-white rounded-full -start-3 ring-8 ring-white">
+						<img src={diplomaLogo} alt="" />
+					</span>
+					<h3 className="flex items-center mx-1 mb-1 text-lg font-semibold text-gray-900 dark:text-white">
+					PVPP's Manohar Phalke Polytechnic
+					</h3>
+					<div className="">
+						<h4 className="flex items-center mb-1 text-lg font-semibold text-gray-900 dark:text-slate-300">
+						Diploma in Computer Engineering
+						</h4>
+						<time className="block mb-2 text-base font-normal leading-none text-gray-400 dark:text-gray-400">
+							July 2013 - July 2015
+						</time>
+					</div>
+					<h4 className="flex items-center mb-1 text-base lg:text-lg font-semibold text-gray-700 dark:text-slate-300">
+						Grade: 85%
+					</h4>
+				</li> */}
+				<li className="mb-2 mx-6">
+					<span className="absolute flex items-center justify-center w-6 h-6 bg-white rounded-full -start-3 ring-8 ring-white">
+						<img src={schoolLogo} alt="" />
+					</span>
+					<h3 className="flex items-center mx-1 mb-1 text-lg font-semibold text-gray-900 dark:text-white">
+					Shree N.D. Bhuta High School, Mumbai
+					</h3>
+					<div className="">
+						<h4 className="flex items-center mb-1 text-lg font-semibold text-gray-900 dark:text-slate-300">
+						SSC
+						</h4>
+					</div>
+					<h4 className="flex items-center mb-1 text-base lg:text-lg font-semibold text-gray-700 dark:text-slate-300">
+						Grade: 83%
+					</h4>
+				</li>
+			</ol>
 		</div>
 	);
 };

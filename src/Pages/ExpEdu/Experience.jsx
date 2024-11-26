@@ -17,10 +17,10 @@ import necLogo from '../../assets/nec_logo.jpg';
 
 const Experience = () => {
 	return (
-		<div className="p-2">
+		<div className="p-2 mt-10">
 			<h1 className="text-3xl my-5 font-semibold">Experience</h1>
-			<ol className="relative border-s border-gray-200 dark:border-gray-700">
-				<li className="mb-10 ms-6">
+			<ol className="relative border-s border-gray-200 dark:border-gray-700 ml-[1%]">
+				<li className="mx-6">
 					<span className="absolute flex items-center justify-center w-6 h-6 bg-white rounded-full -start-3 ring-8 ring-white">
 						<img src={workExpLogo} alt="" />
 					</span>
@@ -37,11 +37,12 @@ const Experience = () => {
 						July 2019 - Present
 					</time>
 					<h4 className="flex items-center mb-1 text-base lg:text-lg font-semibold text-gray-900 dark:text-slate-300">
-						With 5+ years at NEC Software Solutions, specializing in
-						ExtJS/Sencha Framework (MVVM architecture) for the
-						Policing & Public Safety division, I progressed from
-						Associate to Senior Software Engineer through expertise,
-						innovation, and dedication to project success.
+						With 5+ years at NEC Software Solutions, I progressed from
+						Associate to Senior Software Engineer by specializing in
+						ExtJS/Sencha Framework (MVVM architecture) for Policing & Public Safety,
+						delivering high-quality releases, ensuring seamless
+						backend integration, and collaborating with
+						cross-functional teams to drive success.
 					</h4>
 					<h4 className="flex items-center mb-1 text-base lg:text-lg font-semibold text-gray-900 dark:text-slate-400">
 						Worked with:
@@ -144,8 +145,8 @@ const Experience = () => {
 					</h4>
 					<ul className="flex flex-col text-base lg:text-lg list-disc marker:text-[#B415FF] px-4 gap-1">
 						<li>
-							Facilitated the successful launch of the NEC
-							Connect GO application in collaboration with the
+							Facilitated the successful launch of the NEC Connect
+							GO application in collaboration with the
 							<span className="font-semibold italic text-[#DF8908]">
 								{' '}
 								UK Athena Consortium and Metropolitan Police
@@ -164,18 +165,17 @@ const Experience = () => {
 								Award, The Achievers & The Rising Star Award
 							</span>
 						</li>
-						<li>
+						{/* <li>
 							Consistently delivered high-quality releases, while
 							ensuring seamless integration with backend services
 							and collaborating effectively with cross-functional
 							teams to drive project success.
-						</li>
+						</li> */}
 						<li>
 							Played a key role in
 							<span className="font-semibold italic text-[#DF8908]">
 								{' '}
-								mentoring
-                                {' '}
+								mentoring{' '}
 							</span>
 							new hires and fostering a collaborative team
 							environment, accelerating onboarding and skill
