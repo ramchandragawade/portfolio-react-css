@@ -6,6 +6,7 @@ import Footer from "./components/Footer/Footer"
 import Hero from "./Pages/Hero/Hero"
 import Services from "./Pages/ServicesPage/Services"
 import Works from "./Pages/Works/Works"
+import Skills from "./Pages/Skills/Skills"
 
 const App = () => {
   return (
@@ -14,7 +15,8 @@ const App = () => {
       <Hero/>
       <ExpEdu/>
       {/* <About/> */}
-      <Services/>
+      {/* <Services/> */}
+      <Skills/>
       <Works/>
       <Contact/>
       <Footer/>

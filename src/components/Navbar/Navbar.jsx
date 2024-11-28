@@ -46,7 +46,8 @@ const Navbar = () => {
           <img src={menuClose} onClick={closeMenu} alt="" className="block lg:hidden relative top-8 left-72 w-7 cursor-pointer mb-24" />
           <li className='menu-item'><AnchorLink offset={50} href='#top'><p onClick={()=>{setMenu('home')}}>Home</p></AnchorLink>{menu==='home' && <img src={underlineImg} alt="Home link" /> }</li>
           <li className='menu-item'><AnchorLink offset={50} href='#about'><p onClick={()=>{setMenu('about')}}>About me</p></AnchorLink>{menu==='about' && <img src={underlineImg} alt="about link" /> }</li>
-          <li className='menu-item'><AnchorLink offset={50} href='#services'><p onClick={()=>{setMenu('services')}}>Services</p></AnchorLink>{menu==='services' && <img src={underlineImg} alt="services link" /> }</li>
+          {/* <li className='menu-item'><AnchorLink offset={50} href='#services'><p onClick={()=>{setMenu('services')}}>Services</p></AnchorLink>{menu==='services' && <img src={underlineImg} alt="services link" /> }</li> */}
+          <li className='menu-item'><AnchorLink offset={50} href='#skills'><p onClick={()=>{setMenu('skills')}}>Skills</p></AnchorLink>{menu==='skills' && <img src={underlineImg} alt="skills link" /> }</li>
           <li className='menu-item'><AnchorLink offset={50} href='#works'><p onClick={()=>{setMenu('works')}}>Projects</p></AnchorLink>{menu==='works' && <img src={underlineImg} alt="project links" /> }</li>
           <li className='menu-item'><AnchorLink offset={50} href='#contact'><p onClick={()=>{setMenu('contact')}}>Contact</p></AnchorLink>{menu==='contact' && <img src={underlineImg} alt="contact page link" /> }</li>
           <div className="w-full lg:w-max">

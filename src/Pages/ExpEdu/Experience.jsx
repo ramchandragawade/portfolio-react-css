@@ -47,7 +47,7 @@ const Experience = () => {
 					<h4 className="flex items-center mb-1 text-base lg:text-lg font-semibold text-gray-900 dark:text-slate-400">
 						Worked with:
 					</h4>
-					<div className="flex flex-row items-start gap-5 flex-wrap justify-start text-sm lg:text-base">
+					<div className="flex flex-row items-start gap-5 flex-wrap text-center justify-start text-sm lg:text-base">
 						<div className="flex flex-col items-center justify-center">
 							<img className="h-8 lg:h-10" src={jsLogo} alt="" />
 							<p>JavaScript</p>
