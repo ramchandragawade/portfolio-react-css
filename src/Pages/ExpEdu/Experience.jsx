@@ -12,6 +12,7 @@ import portrainerLogo from '../../assets/portainer.svg';
 import postmanLogo from '../../assets/postman.svg';
 import jasmineLogo from '../../assets/jasmine.svg';
 import workExpLogo from '../../assets/work-exp.svg';
+import couchbaseLogo from '../../assets/couchbase.svg';
 import necLogo from '../../assets/nec_logo.jpg';
 
 
@@ -129,6 +130,14 @@ const Experience = () => {
 								alt=""
 							/>
 							<p>Portainer</p>
+						</div>
+						<div className="flex flex-col items-center justify-center">
+							<img
+								className="h-8 lg:h-10"
+								src={couchbaseLogo}
+								alt=""
+							/>
+							<p>Couchbase</p>
 						</div>
 						<div className="flex flex-col items-center justify-center">
 							<img

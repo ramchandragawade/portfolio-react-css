@@ -28,6 +28,10 @@ import bootstrapLogo from '../../assets/bootstrap.svg';
 import expressLogo from '../../assets/express-js.svg';
 import ejsLogo from '../../assets/ejs.svg';
 import reduxLogo from '../../assets/redux.svg';
+import invisionLogo from '../../assets/invision.svg';
+import couchbaseLogo from '../../assets/couchbase.svg';
+import mapboxLogo from '../../assets/mapbox.svg';
+import cloudinaryLogo from '../../assets/cloudinary.svg';
 
 import jiraLogo from '../../assets/jira1.svg';
 import jira2Logo from '../../assets/jira2.svg';
@@ -83,11 +87,18 @@ const Skills = () => {
 					<Skill logo={dockerLogo} name={'Docker'} />
 					<Skill logo={jenkinsLogo} name={'Jenkins'} />
 					<Skill logo={portrainerLogo} name={'Portainer'} />
+					<Skill logo={couchbaseLogo} name={'Couchbase'} />
 					<Skill logo={postmanLogo} name={'Postman'} />
 					<Skill logo={vscodeLogo} name={'VS Code'} />
 					<Skill logo={firebaseLogo} name={'Firebase'} />
 					<Skill logo={androidStudioLogo} name={'Studio'} />
 					<Skill logo={jiraLogo} name={'JIRA'} />
+					<Skill logo={invisionLogo} name={'InVision'} />
+					<Skill logo={mapboxLogo} name={'Mapbox'} />
+					<Skill logo={cloudinaryLogo} name={'Cloudinary'} />
+
+
+
 					{/* <Skill logo={jira2Logo} name={'JIRA'} /> */}
 				</div>
 			</div>
