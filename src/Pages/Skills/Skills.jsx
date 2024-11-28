@@ -24,18 +24,24 @@ import vscodeLogo from '../../assets/vscode.svg';
 import firebaseLogo from '../../assets/firebase.svg';
 import androidLogo from '../../assets/android.svg';
 import androidStudioLogo from '../../assets/androidstudio.svg';
-
-
+import bootstrapLogo from '../../assets/bootstrap.svg';
 import expressLogo from '../../assets/express-js.svg';
+import ejsLogo from '../../assets/ejs.svg';
+import reduxLogo from '../../assets/redux.svg';
+
+import jiraLogo from '../../assets/jira1.svg';
+import jira2Logo from '../../assets/jira2.svg';
+
+
 
 const Skills = () => {
 	return (
 		<section
 			id="skills"
-			className="flex flex-col justify-center mx-[6%] lg:mx-[10%] gap-10"
+			className="flex flex-col justify-center mx-[6%] lg:mx-[10%] gap-5"
 		>
 			<TitleBox title={'Skills'} />
-			<h3 className="text-base lg:text-lg mt-4">
+			<h3 className="text-base lg:text-lg mt-10">
 				I demonstrate strong proficiency in a range of technologies and
 				tools vital for web development and software engineering.
 				<br />
@@ -43,32 +49,36 @@ const Skills = () => {
 				valuable skills to any project or team. Dive in below to discover more about my capabilities.
 				<br />
 			</h3>
-			<div className="flex flex-row flex-wrap gap-4">
-                <h3 className="text-base lg:text-lg mt-4 w-full">Technologies I've worked on:</h3>
+			<div className="flex flex-row flex-wrap gap-2">
+                <h3 className="text-base lg:text-lg w-full">Technologies I've worked on:</h3>
 				<div className="flex flex-row flex-wrap items-start gap-5 justify-start">
 					<Skill logo={jsLogo} name={'JavaScript'} />
 					<Skill logo={SenchaExtLogo} name={'ExtJs'} />
-					<Skill logo={senchaLogo} name={'Sencha Test'} />
-					<Skill logo={jasmineLogo} name={'Jasmine'} />
 					<Skill logo={htmlLogo} name={'HTML'} />
 					<Skill logo={cssLogo} name={'CSS'} />
-					{/* <Skill logo={cssLogo} name={'SCSS'} /> */}
 					<Skill logo={jsonLogo} name={'JSON'} />
 					<Skill logo={gitLogo} name={'GIT'} />
+					<Skill logo={senchaLogo} name={'Sencha Test'} />
+					<Skill logo={jasmineLogo} name={'Jasmine'} />
+					{/* <Skill logo={cssLogo} name={'SCSS'} /> */}
                     <Skill logo={reactLogo} name={'React'} />
+                    <Skill logo={reduxLogo} name={'Redux'} />
                     <Skill logo={mongoLogo} name={'MongoDB'} />
                     <Skill logo={nodeLogoSm} name={'NodeJs'} />
                     <Skill logo={expressLogo} name={'ExpressJs'} />
+                    <Skill logo={ejsLogo} name={'EmbeddedJs'} />
+
                     <Skill logo={apiLogo} name={'REST APIs'} />
                     <Skill logo={tailwindLogo} name={'Tailwind Css'} />
+                    <Skill logo={bootstrapLogo} name={'Bootstrap'} />
                     <Skill logo={javaLogo} name={'Java'} />
                     <Skill logo={androidLogo} name={'Android'} />
 
 				</div>
 			</div>
-            <div className="flex flex-row flex-wrap gap-4">
-                <h3 className="text-base lg:text-lg mt-4 w-full">Tools I've worked on:</h3>
-				<div className="flex flex-row flex-wrap items-start gap-5 justify-start">
+            <div className="flex flex-row flex-wrap gap-2">
+                <h3 className="text-base lg:text-lg w-full">Tools I've worked on:</h3>
+				<div className="flex flex-row flex-wrap gap-5 items-center justify-start">
 					<Skill logo={githubLogo} name={'Github'} />
 					<Skill logo={dockerLogo} name={'Docker'} />
 					<Skill logo={jenkinsLogo} name={'Jenkins'} />
@@ -77,6 +87,8 @@ const Skills = () => {
 					<Skill logo={vscodeLogo} name={'VS Code'} />
 					<Skill logo={firebaseLogo} name={'Firebase'} />
 					<Skill logo={androidStudioLogo} name={'Studio'} />
+					<Skill logo={jiraLogo} name={'JIRA'} />
+					{/* <Skill logo={jira2Logo} name={'JIRA'} /> */}
 				</div>
 			</div>
 		</section>
