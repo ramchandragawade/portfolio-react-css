@@ -43,7 +43,7 @@ const Skills = () => {
 			className="flex flex-col justify-center mx-[6%] lg:mx-[10%] gap-5"
 		>
 			<TitleBox title={'Skills'} />
-			<h3 className="text-base lg:text-lg mt-10">
+			<h3 className="text-base lg:text-lg mt-7 lg:mt-10">
 				I demonstrate strong proficiency in a range of technologies and
 				tools vital for web development and software engineering.
 				<br />

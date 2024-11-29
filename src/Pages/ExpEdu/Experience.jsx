@@ -13,7 +13,9 @@ import postmanLogo from '../../assets/postman.svg';
 import jasmineLogo from '../../assets/jasmine.svg';
 import workExpLogo from '../../assets/work-exp.svg';
 import couchbaseLogo from '../../assets/couchbase.svg';
+import apiLogo from '../../assets/api-logo.svg';
 import necLogo from '../../assets/nec_logo.jpg';
+import ExpSkill from '../../components/SkillContent/ExpSkill';
 
 
 const Experience = () => {
@@ -49,105 +51,29 @@ const Experience = () => {
 						Worked with:
 					</h4>
 					<div className="flex flex-row items-start gap-5 flex-wrap text-center justify-start text-sm lg:text-base">
-						<div className="flex flex-col items-center justify-center">
-							<img className="h-8 lg:h-10" src={jsLogo} alt="" />
-							<p>JavaScript</p>
-						</div>
-						<div className="flex flex-col items-center justify-center">
-							<img
-								className="h-8 lg:h-10"
-								src={SenchaExtLogo}
-								alt=""
-							/>
-							<p>ExtJs</p>
+						<ExpSkill logo={jsLogo} name={'Javascript'}/>
+						<ExpSkill logo={SenchaExtLogo} name={'ExtJs'}>
 							<p>Sencha</p>
-						</div>
-						<div className="flex flex-col items-center justify-center">
-							<img
-								className="h-8 lg:h-10"
-								src={senchaLogo}
-								alt=""
-							/>
-							<p>Sencha Test</p>
-						</div>
-						<div className="flex flex-col items-center justify-center">
-							<img
-								className="h-8 lg:h-10"
-								src={jasmineLogo}
-								alt=""
-							/>
-							<p>Jasmine</p>
-						</div>
-						<div className="flex flex-col items-center justify-center">
-							<img
-								className="h-8 lg:h-10"
-								src={htmlLogo}
-								alt=""
-							/>
-							<p>HTML</p>
-						</div>
-						<div className="flex flex-col items-center justify-center">
-							<img className="h-8 lg:h-10" src={cssLogo} alt="" />
-							<p>CSS</p>
+						</ExpSkill>
+						<ExpSkill logo={senchaLogo} name={'Sencha Test'}/>
+						<ExpSkill logo={jasmineLogo} name={'Jasmine'}/>
+						<ExpSkill logo={htmlLogo} name={'HTML'}/>
+						<ExpSkill logo={cssLogo} name={'CSS'}>
 							<p>SCSS</p>
-						</div>
-						<div className="flex flex-col items-center justify-center">
-							<img
-								className="h-8 lg:h-10"
-								src={jsonLogo}
-								alt=""
-							/>
-							<p>JSON</p>
-						</div>
-						<div className="flex flex-col items-center justify-center">
-							<img className="h-8 lg:h-10" src={gitLogo} alt="" />
-							<p>GIT</p>
+						</ExpSkill>
+						<ExpSkill logo={jsonLogo} name={'JSON'}/>
+						<ExpSkill logo={gitLogo} name={'GIT'}>
 							<div className="flex flex-row items-center justify-center">
 								<img src={githubLogo} className="h-4" alt="" />
 								<p>Github</p>
 							</div>
-						</div>
-						<div className="flex flex-col items-center justify-center">
-							<img
-								className="h-8 lg:h-10"
-								src={dockerLogo}
-								alt=""
-							/>
-							<p>Docker</p>
-						</div>
-						<div className="flex flex-col items-center justify-center">
-							<img
-								className="h-8 lg:h-10"
-								src={jenkinsLogo}
-								alt=""
-							/>
-							<p>Jenkins</p>
-						</div>
-						<div className="flex flex-col items-center justify-center">
-							<img
-								className="h-8 lg:h-10"
-								src={portrainerLogo}
-								alt=""
-							/>
-							<p>Portainer</p>
-						</div>
-						<div className="flex flex-col items-center justify-center">
-							<img
-								className="h-8 lg:h-10"
-								src={couchbaseLogo}
-								alt=""
-							/>
-							<p>Couchbase</p>
-						</div>
-						<div className="flex flex-col items-center justify-center">
-							<img
-								className="h-8 lg:h-10"
-								src={postmanLogo}
-								alt=""
-							/>
-							<p>REST Api</p>
-							<p>Postman</p>
-						</div>
+						</ExpSkill>
+						<ExpSkill logo={dockerLogo} name={'Docker'}/>
+						<ExpSkill logo={jenkinsLogo} name={'Jenkins'}/>
+						<ExpSkill logo={portrainerLogo} name={'Portainer'}/>
+						<ExpSkill logo={couchbaseLogo} name={'Couchbase'}/>
+						<ExpSkill logo={apiLogo} name={'REST APIs'}/>
+						<ExpSkill logo={postmanLogo} name={'Postman'}/>
 					</div>
 					<h4 className="flex items-center my-1 text-base lg:text-lg font-semibold text-gray-900 dark:text-slate-400">
 						Key Achievements:
