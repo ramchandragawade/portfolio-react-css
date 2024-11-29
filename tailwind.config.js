@@ -6,6 +6,10 @@ export default {
   ],
   theme: {
     extend: {
+      colors: {
+        'site-purple': '#B415FF',
+        'site-yellow': '#DF8908',
+      },
       backgroundImage: {
         'india-colors': 'linear-gradient(130deg, #FF671F 30%,#FFFFFF,#046A38)',
         'custom-gradient': 'linear-gradient(to right, #B415FF,#DF8908)',

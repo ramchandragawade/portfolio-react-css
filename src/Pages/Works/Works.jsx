@@ -1,22 +1,38 @@
 import TitleBox from '../../components/TitleBox/TitleBox';
 import './Works.css';
-import workData from '../../assets/mywork_data';
-import arrowIcon from '../../assets/arrow_icon.svg'
+import yelp1 from '../../assets/yelp1.png';
+import arrowIcon from '../../assets/arrow_icon.svg';
+import Project from '../../components/ProjectComp/Project';
 const Works = () => {
-  return (
-    <section id='works' className='works'>
-        <TitleBox title={'My latest work'}/>
-        <div className="works-container">
-            {workData.map((work, index)=>{
-                return <img key={index} src={work.w_img} alt="" />
-            })}
-        </div>
-        <div className="works-showmore">
-            <p>Show More</p>
-            <img src={arrowIcon} alt="" />
-        </div>
-    </section>
-  )
-}
+	return (
+		<section
+			id="works"
+			className="flex flex-col justify-center mx-[5%] lg:mx-[10%] gap-5"
+		>
+			<TitleBox title={'Projects'} />
+			<h3 className="text-base lg:text-lg mt-7 lg:mt-10">
+				This page showcases a collection of hands-on projects I’ve
+				undertaken to expand my skills, explore new technologies, and
+				push creative boundaries beyond my professional work.
+				<br />
+				These projects reflects my dedication to continuous learning and
+				my passion for turning ideas into tangible results.
+			</h3>
+			{/* <div className="works-container">
+				{workData.map((work, index) => {
+					return <img key={index} src={work.w_img} alt="" />;
+				})}
+			</div> */}
+			<div className="grid grid-cols-1 justify-items-center md:grid-cols-2 xl:grid-cols-3 2xl:grid-cols-4 gap-10">
+				<Project/>
+				<Project/>
+				<Project/>
+				<Project/>
+				<Project/>
+				<Project/>
+			</div>
+		</section>
+	);
+};
 
-export default Works
+export default Works;

@@ -40,7 +40,7 @@ const Skills = () => {
 	return (
 		<section
 			id="skills"
-			className="flex flex-col justify-center mx-[5%] lg:mx-[10%] gap-5"
+			className="flex flex-col justify-center mx-[5%] lg:mx-[10%] gap-5 mb-20 lg:mb-36"
 		>
 			<TitleBox title={'Skills'} />
 			<h3 className="text-base lg:text-lg mt-7 lg:mt-10">

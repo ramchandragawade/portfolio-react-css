@@ -78,11 +78,11 @@ const Experience = () => {
 					<h4 className="flex items-center my-1 text-base lg:text-lg font-semibold text-gray-900 dark:text-slate-400">
 						Key Achievements:
 					</h4>
-					<ul className="flex flex-col text-base lg:text-lg list-disc marker:text-[#B415FF] px-4 gap-1">
+					<ul className="flex flex-col text-base lg:text-lg list-disc marker:text-site-purple px-4 gap-1">
 						<li>
 							Facilitated the successful launch of the NEC Connect
 							GO application in collaboration with the
-							<span className="font-semibold italic text-[#B415FF]">
+							<span className="font-semibold italic text-site-purple">
 								{' '}
 								UK Athena Consortium and Metropolitan Police
 							</span>
@@ -94,7 +94,7 @@ const Experience = () => {
                 <span className='bg-custom-gradient-rev-light text-transparent bg-clip-text'> Self-Directed Learning Award</span>,
                 <span className='bg-custom-gradient-rev-light text-transparent bg-clip-text'> The Achievers</span> &
                 <span className='bg-custom-gradient-rev-light text-transparent bg-clip-text'> The Rising Star Award</span> */}
-							<span className="font-semibold italic text-[#B415FF]">
+							<span className="font-semibold italic text-site-purple">
 								{' '}
 								Feather in the Cap, Self-Directed Learning
 								Award, The Achievers & The Rising Star Award
@@ -108,7 +108,7 @@ const Experience = () => {
 						</li> */}
 						<li>
 							Played a key role in
-							<span className="font-semibold italic text-[#B415FF]">
+							<span className="font-semibold italic text-site-purple">
 								{' '}
 								mentoring{' '}
 							</span>
