@@ -7,7 +7,7 @@ const Works = () => {
 	return (
 		<section
 			id="works"
-			className="flex flex-col justify-center mx-[5%] lg:mx-[12%] xl:mx-[15%] gap-5"
+			className="flex flex-col justify-center mx-[5%] lg:mx-[12%] xl:mx-[15%] gap-5 mb-20 lg:mb-36"
 		>
 			<TitleBox title={'Projects'} />
 			<h3 className="text-base lg:text-lg mt-7 lg:mt-10">
