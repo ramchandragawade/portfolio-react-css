@@ -1,8 +1,8 @@
 import yelp1 from '../../assets/yelp1.png';
 import arrowIcon from '../../assets/arrow_icon.svg';
-const Project = () => {
+const Project = ({className}) => {
 	return (
-		<div className="flex flex-col box-border items-center gap-2 justify-center w-full md:min-w-[320px] md:max-w-[320px] p-2 shadow-md shadow-site-purple border-site-purple border-[0.1rem] rounded-md">
+		<div className={`flex flex-col box-border items-center gap-2 justify-center w-full md:min-w-[320px] md:max-w-[320px] p-2 shadow-md shadow-site-purple border-site-purple border-[0.1rem] rounded-md ${className}`}>
 			<div className="md:w-[300px] h-auto items-center overflow-hidden relative rounded-lg">
 				<img src={yelp1} alt="" className="object-cover w-full" />
 			</div>

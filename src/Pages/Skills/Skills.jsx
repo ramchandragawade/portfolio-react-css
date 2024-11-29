@@ -53,7 +53,7 @@ const Skills = () => {
 			</h3>
 			<div className="flex flex-row flex-wrap gap-2">
                 <h3 className="text-base lg:text-lg w-full">Technologies I've worked on:</h3>
-				<div className="flex flex-row flex-wrap items-start gap-5 justify-start">
+				<div className="flex flex-row flex-wrap gap-5 items-start justify-start">
 					<Skill logo={jsLogo} name={'JavaScript'} />
 					<Skill logo={SenchaExtLogo} name={'ExtJs'} />
 					<Skill logo={htmlLogo} name={'HTML'} />
@@ -79,7 +79,7 @@ const Skills = () => {
 			</div>
             <div className="flex flex-row flex-wrap gap-2">
                 <h3 className="text-base lg:text-lg w-full">Tools I've worked on:</h3>
-				<div className="flex flex-row flex-wrap gap-5 items-center justify-start">
+				<div className="flex flex-row flex-wrap gap-5 items-start justify-start">
 					<Skill logo={githubLogo} name={'Github'} />
 					<Skill logo={dockerLogo} name={'Docker'} />
 					<Skill logo={jenkinsLogo} name={'Jenkins'} />

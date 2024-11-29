@@ -23,13 +23,16 @@ const Works = () => {
 					return <img key={index} src={work.w_img} alt="" />;
 				})}
 			</div> */}
-			<div className="grid grid-cols-1 justify-items-center md:grid-cols-2 xl:grid-cols-3 2xl:grid-cols-4 gap-10">
+      {/* grid grid-cols-1 justify-items-center md:grid-cols-2 xl:grid-cols-3 2xl:grid-cols-4 gap-10 */}
+			<div className="flex flex-row flex-wrap gap-5 justify-center">
 				<Project/>
 				<Project/>
 				<Project/>
-				<Project/>
-				<Project/>
-				<Project/>
+        <Project className={'hidden md:flex'}/>
+				<Project className={'hidden md:flex'}/>
+				<Project className={'hidden md:flex'}/>
+
+
 			</div>
 		</section>
 	);
