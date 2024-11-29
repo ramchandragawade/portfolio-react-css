@@ -14,7 +14,6 @@ const Works = () => {
 				This page showcases a collection of hands-on projects I’ve
 				undertaken to expand my skills, explore new technologies, and
 				push creative boundaries beyond my professional work.
-				<br />
 				These projects reflects my dedication to continuous learning and
 				my passion for turning ideas into tangible results.
 			</h3>
