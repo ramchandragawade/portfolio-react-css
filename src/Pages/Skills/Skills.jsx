@@ -40,13 +40,13 @@ const Skills = () => {
 	return (
 		<section
 			id="skills"
-			className="flex flex-col justify-center mx-[6%] lg:mx-[10%] gap-5"
+			className="flex flex-col justify-center mx-[5%] lg:mx-[10%] gap-5"
 		>
 			<TitleBox title={'Skills'} />
 			<h3 className="text-base lg:text-lg mt-7 lg:mt-10">
 				I demonstrate strong proficiency in a range of technologies and
-				tools vital for web development and software engineering.
-				<br />
+				tools vital for web development and software engineering.{' '}
+				<br className='block lg:hidden'/>
 				My hands-on experience and expertise enable me to contribute
 				valuable skills to any project or team. Dive in below to discover more about my capabilities.
 				<br />
