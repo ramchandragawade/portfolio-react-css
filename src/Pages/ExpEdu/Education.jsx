@@ -6,8 +6,8 @@ import schoolLogo from '../../assets/school.svg';
 const Education = () => {
 	return (
 		<div className="p-2 mb-20 lg:mb-52">
-			<h1 className="text-3xl my-5 font-semibold">Education</h1>
-			<ol className="relative border-s border-gray-200 dark:border-gray-700 ml-[1%]">
+			<h1 className="text-3xl my-3 lg:my-5 font-semibold">Education</h1>
+			<ol className="relative border-s mt-5 border-gray-200 dark:border-gray-700 ml-[1%]">
 				<li className="mb-2 mx-6">
 					<span className="absolute flex items-center justify-center w-6 h-6 bg-white rounded-full -start-3 ring-8 ring-white">
 						<img src={gradLogo} alt="" />

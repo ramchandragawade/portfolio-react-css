@@ -21,8 +21,8 @@ import ExpSkill from '../../components/SkillContent/ExpSkill';
 const Experience = () => {
 	return (
 		<div className="p-2 mb-20 lg:mb-36">
-			<h1 className="text-3xl my-5 font-semibold">Experience</h1>
-			<ol className="relative border-s border-gray-200 dark:border-gray-700 ml-[1%]">
+			<h1 className="text-3xl my-3 lg:my-5 font-semibold">Experience</h1>
+			<ol className="relative mt-5 border-s border-gray-200 dark:border-gray-700 ml-[1%]">
 				<li className="mx-6">
 					<span className="absolute flex items-center justify-center w-6 h-6 bg-white rounded-full -start-3 ring-8 ring-white">
 						<img src={workExpLogo} alt="" />

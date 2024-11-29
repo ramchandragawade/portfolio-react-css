@@ -35,7 +35,7 @@ const ExpEdu = () => {
 					</ul>
 				</div>
 			</div>
-			<div className={`mt-7`}>
+			<div className={`lg:mt-7`}>
 				{tab==='exp' ? <Experience /> : <Education />}	
 			</div>
 		</section>
