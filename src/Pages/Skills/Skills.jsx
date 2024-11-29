@@ -32,9 +32,7 @@ import invisionLogo from '../../assets/invision.svg';
 import couchbaseLogo from '../../assets/couchbase.svg';
 import mapboxLogo from '../../assets/mapbox.svg';
 import cloudinaryLogo from '../../assets/cloudinary.svg';
-
 import jiraLogo from '../../assets/jira1.svg';
-import jira2Logo from '../../assets/jira2.svg';
 
 
 
@@ -59,22 +57,21 @@ const Skills = () => {
 					<Skill logo={jsLogo} name={'JavaScript'} />
 					<Skill logo={SenchaExtLogo} name={'ExtJs'} />
 					<Skill logo={htmlLogo} name={'HTML'} />
-					<Skill logo={cssLogo} name={'CSS'} />
 					<Skill logo={jsonLogo} name={'JSON'} />
-					<Skill logo={gitLogo} name={'GIT'} />
-					<Skill logo={senchaLogo} name={'Sencha Test'} />
-					<Skill logo={jasmineLogo} name={'Jasmine'} />
-					{/* <Skill logo={cssLogo} name={'SCSS'} /> */}
+					<Skill logo={cssLogo} name={'CSS'} />
+					<Skill logo={tailwindLogo} name={'Tailwind Css'} />
+                    <Skill logo={bootstrapLogo} name={'Bootstrap'} />
                     <Skill logo={reactLogo} name={'React'} />
                     <Skill logo={reduxLogo} name={'Redux'} />
                     <Skill logo={mongoLogo} name={'MongoDB'} />
                     <Skill logo={nodeLogoSm} name={'NodeJs'} />
                     <Skill logo={expressLogo} name={'ExpressJs'} />
                     <Skill logo={ejsLogo} name={'EmbeddedJs'} />
-
+					<Skill logo={senchaLogo} name={'Sencha Test'} />
+					<Skill logo={jasmineLogo} name={'Jasmine'} />
+					{/* <Skill logo={cssLogo} name={'SCSS'} /> */}
+					<Skill logo={gitLogo} name={'GIT'} />
                     <Skill logo={apiLogo} name={'REST APIs'} />
-                    <Skill logo={tailwindLogo} name={'Tailwind Css'} />
-                    <Skill logo={bootstrapLogo} name={'Bootstrap'} />
                     <Skill logo={javaLogo} name={'Java'} />
                     <Skill logo={androidLogo} name={'Android'} />
 
@@ -96,10 +93,6 @@ const Skills = () => {
 					<Skill logo={invisionLogo} name={'InVision'} />
 					<Skill logo={mapboxLogo} name={'Mapbox'} />
 					<Skill logo={cloudinaryLogo} name={'Cloudinary'} />
-
-
-
-					{/* <Skill logo={jira2Logo} name={'JIRA'} /> */}
 				</div>
 			</div>
 		</section>
