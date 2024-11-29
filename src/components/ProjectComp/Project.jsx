@@ -1,8 +1,11 @@
 import yelp1 from '../../assets/yelp1.png';
 import arrowIcon from '../../assets/arrow_icon.svg';
-const Project = ({className}) => {
+const Project = ({ className }) => {
 	return (
-		<div className={`flex flex-col box-border items-center gap-2 justify-center w-full md:min-w-[320px] md:max-w-[320px] p-2 shadow-md shadow-site-purple border-site-purple border-[0.1rem] rounded-md ${className}`}>
+		<div
+			className={`flex flex-col box-border items-center gap-2 justify-center w-full md:min-w-[320px] md:max-w-[320px] p-2 shadow-md
+             shadow-site-purple border-site-purple border-opacity-30 hover:border-opacity-90 cursor-default duration-300 border-[1px] rounded-md ${className}`}
+		>
 			<div className="md:w-[300px] h-auto items-center overflow-hidden relative rounded-lg">
 				<img src={yelp1} alt="" className="object-cover w-full" />
 			</div>
@@ -12,9 +15,9 @@ const Project = ({className}) => {
 				MongoDB, Express.js, Node.js, and integrated with MapBox,
 				Passport.js, and Cloudinary for enhanced functionality.
 			</p>
-			<div className="flex gap-3 mb-2 rounded-[50px] border-[0.5px] border-site-purple py-2 px-5 w-fit text-lg font-medium duration-500 cursor-pointer hover:gap-10 hover:duration-500">
+			<div className="flex gap-3 mb-2 rounded-[50px] border-opacity-80 hover:border-opacity-100 border-[1px] border-site-purple py-2 px-5 w-fit text-lg font-medium duration-500 cursor-pointer hover:gap-10 hover:duration-500">
 				<p>Show More</p>
-				<img src={arrowIcon} alt="" className=''/>
+				<img src={arrowIcon} alt="" className="" />
 			</div>
 		</div>
 	);
