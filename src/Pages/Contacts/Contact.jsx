@@ -1,10 +1,9 @@
 import TitleBox from '../../components/TitleBox/TitleBox';
-import './Contact.css';
 import mailIcon from '../../assets/mail_icon.svg';
-import callIcon from '../../assets/call_icon.svg';
 import locIcon from '../../assets/location_icon.svg';
 import emailjs from '@emailjs/browser';
 import { useRef, useState } from 'react';
+// import callIcon from '../../assets/call_icon.svg';
 
 const Contact = () => {
 	const formRef = useRef();
@@ -46,7 +45,7 @@ const Contact = () => {
 			className="flex flex-col justify-center mx-[5%] lg:mx-[12%] xl:mx-[15%] gap-5"
 		>
 			<TitleBox title={'Get in touch'} />
-			<div className="flex flex-col lg:flex-row justify-between w-full gap-6 lg:gap-8">
+			<div className="flex flex-col lg:flex-row justify-between mt-7 lg:mt-10 w-full gap-6 lg:gap-8">
 				<div className="flex flex-col mb-2 lg:mb-0 gap-5 lg:gap-8 basis-2/5">
 					<h1 className="text-4xl lg:text-5xl font-bold bg-custom-gradient-rev bg-clip-text text-transparent">
 						Let's talk
@@ -131,7 +130,7 @@ const Contact = () => {
 						required
 					></textarea>
 					<button
-						className="py-4 px-7 lg:py-[18px] lg:px-10 rounded-[50px] text-base cursor-pointer duration-500 bg-custom-gradient hover:scale-105"
+						className="py-4 px-8 lg:py-[18px] lg:px-10 rounded-[50px] text-base cursor-pointer duration-500 bg-custom-gradient hover:scale-105"
 						type="submit"
 						name="submit"
 						id="submit"

@@ -1,4 +1,3 @@
-import './Hero.css';
 import heroImg from '../../assets/raaj-avatar.svg';
 import PatternBtn from '../../components/Buttons/PatternBtn';
 import AnchorLink from 'react-anchor-link-smooth-scroll';

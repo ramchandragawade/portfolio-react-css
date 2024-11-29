@@ -1,6 +1,5 @@
 import TitleBox from '../../components/TitleBox/TitleBox';
 import Education from './Education';
-import './ExpEdu.css';
 import Experience from './Experience';
 import expLogo from '../../assets/work-exp-tab.svg';
 import eduLogo from '../../assets/grad-tab.svg';

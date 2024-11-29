@@ -1,7 +1,5 @@
 import TitleBox from '../../components/TitleBox/TitleBox';
-import './Works.css';
 import yelp1 from '../../assets/yelp1.png';
-import arrowIcon from '../../assets/arrow_icon.svg';
 import Project from '../../components/ProjectComp/Project';
 const Works = () => {
 	return (
