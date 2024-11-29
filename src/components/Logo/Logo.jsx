@@ -10,4 +10,4 @@ const Logo = ({className}) => {
   )
 }
 
-export default Logo
+export default Logo;
