@@ -9,7 +9,7 @@ import { useState } from 'react';
 const ExpEdu = () => {
 	const [tab, setTab] = useState('exp');
 	return (
-		<section id='about' className="flex flex-col mx-[5%] lg:mx-[10%]">
+		<section id='about' className="flex flex-col mx-[5%] lg:mx-[15%]">
 			<TitleBox title={'About me'} />
 			<div className="w-full mt-16">
 				<div className="relative right-0">

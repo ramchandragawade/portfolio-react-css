@@ -7,7 +7,7 @@ const Works = () => {
 	return (
 		<section
 			id="works"
-			className="flex flex-col justify-center mx-[5%] lg:mx-[10%] gap-5"
+			className="flex flex-col justify-center mx-[5%] lg:mx-[12%] xl:mx-[15%] gap-5"
 		>
 			<TitleBox title={'Projects'} />
 			<h3 className="text-base lg:text-lg mt-7 lg:mt-10">
@@ -23,14 +23,13 @@ const Works = () => {
 				})}
 			</div> */}
       {/* grid grid-cols-1 justify-items-center md:grid-cols-2 xl:grid-cols-3 2xl:grid-cols-4 gap-10 */}
-			<div className="flex flex-row flex-wrap gap-5 justify-center">
+			<div className="flex flex-row flex-wrap gap-5 2xl:gap-10 justify-center md:justify-around lg:justify-center">
 				<Project/>
 				<Project/>
 				<Project/>
-        <Project className={'hidden md:flex'}/>
-				<Project className={'hidden md:flex'}/>
-				<Project className={'hidden md:flex'}/>
-
+        <Project/>
+        <Project/>
+        <Project/>
 
 			</div>
 		</section>

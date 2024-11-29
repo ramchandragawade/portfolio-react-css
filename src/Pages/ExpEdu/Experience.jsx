@@ -20,7 +20,7 @@ import ExpSkill from '../../components/SkillContent/ExpSkill';
 
 const Experience = () => {
 	return (
-		<div className="p-2 mb-20 lg:mb-36">
+		<div className="p-2 mb-16 lg:mb-28">
 			<h1 className="text-3xl my-3 lg:my-5 font-semibold">Experience</h1>
 			<ol className="relative mt-5 border-s border-site-purple ml-[1%]">
 				<li className="mx-6">
