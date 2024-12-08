@@ -26,7 +26,7 @@ const Project = ({openFn, data, className }) => {
 						<a href={data.gitUrl} target="_blank" className='inline-flex p-1 gap-1 cursor-pointer'>
 							<img className='w-5' src={githubLogo} alt="" />
 						</a>
-						<div class="absolute bottom-full left-1/2 transform -translate-x-1/2 mb-2 px-3 py-1 text-sm text-white bg-gray-800 rounded opacity-0 group-hover:opacity-100 transition-opacity duration-200">
+						<div className="absolute bottom-full left-1/2 transform -translate-x-1/2 mb-2 px-3 py-1 text-sm text-white bg-gray-800 rounded hidden group-hover:block transition-all duration-200">
 							View Code
 						</div>
 					</div>
@@ -36,7 +36,7 @@ const Project = ({openFn, data, className }) => {
 							<a href={data.demoUrl} target="_blank" className='inline-flex p-1 gap-1 cursor-pointer'>
 								<img className='w-5' src={open_tab} alt="" />
 							</a>
-							<div class="absolute bottom-full left-1/2 transform -translate-x-1/2 mb-2 px-3 py-1 text-sm text-white bg-gray-800 rounded opacity-0 group-hover:opacity-100 transition-opacity duration-200">
+							<div className="absolute bottom-full left-1/2 transform -translate-x-1/2 mb-2 px-3 py-1 text-sm text-white bg-gray-800 rounded hidden group-hover:block transition-all duration-200">
 								Live Demo
 							</div>
 						</div>
