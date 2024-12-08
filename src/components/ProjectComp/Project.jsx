@@ -11,7 +11,7 @@ const Project = ({openFn, data, className }) => {
 	return (
 		<div
 			className={`flex flex-col box-border items-center gap-2 justify-center min-w-full max-w-full md:min-w-[40%] md:max-w-[40%] lg:min-w-[30%] lg:max-w-[30%] p-2 shadow-md
-             shadow-site-purple border-site-purple border-opacity-30 hover:border-opacity-90 cursor-default duration-300 border-[1px] rounded-md ${className}`}
+             shadow-site-purple border-site-purple border-opacity-30 hover:border-opacity-90 cursor-default duration-300 transition-all border-[1px] rounded-md ${className}`}
 		>
 			<div className="md:w-[95%] h-auto items-center overflow-hidden relative rounded-lg">
 				<img src={data.imgs[0]} alt="" className="object-cover w-full" />
@@ -22,7 +22,7 @@ const Project = ({openFn, data, className }) => {
 			</p>
 			<div className="flex flex-row w-full justify-evenly">
 				<div className='flex flex-row items-center text-white gap-2'>
-					<div className='rounded-2xl hover:scale-110 duration-300 ease-in relative group'>
+					<div className='rounded-2xl hover:scale-110 duration-300 transition-all ease-in relative group'>
 						<a href={data.gitUrl} target="_blank" className='inline-flex p-1 gap-1 cursor-pointer'>
 							<img className='w-5' src={githubLogo} alt="" />
 						</a>
@@ -32,7 +32,7 @@ const Project = ({openFn, data, className }) => {
 					</div>
 					{
 					data.demoUrl && 
-						<div className='rounded-2xl hover:scale-110 duration-300 ease-in relative group'>
+						<div className='rounded-2xl hover:scale-110 duration-300 ease-in transition-all relative group'>
 							<a href={data.demoUrl} target="_blank" className='inline-flex p-1 gap-1 cursor-pointer'>
 								<img className='w-5' src={open_tab} alt="" />
 							</a>
@@ -42,7 +42,7 @@ const Project = ({openFn, data, className }) => {
 						</div>
 					}
 				</div>
-				<div onClick={()=>{showMoreClick(data.id)}} className="flex gap-1 mb-2 rounded-[50px] border-opacity-80 hover:border-opacity-100 border-[1px] border-site-purple py-2 px-3 w-fit text-base font-medium duration-500 cursor-pointer hover:gap-3 hover:duration-500">
+				<div onClick={()=>{showMoreClick(data.id)}} className="flex gap-1 mb-2 rounded-[50px] border-opacity-80 hover:border-opacity-100 border-[1px] border-site-purple py-2 px-3 w-fit text-base font-medium duration-500 transition-all cursor-pointer hover:gap-3 hover:duration-500">
 					<p>Show More</p>
 					<img src={arrowIcon} alt="" className="w-4" />
 				</div>

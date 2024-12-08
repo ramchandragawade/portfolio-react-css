@@ -21,7 +21,7 @@ const Hero = () => {
           <AnchorLink className='w-max' offset={50} href='#contact'>
             <PatternBtn>Connect With Me</PatternBtn>
           </AnchorLink>
-          <div className='flex py-3.5 px-10 rounded-full items-center border-2 cursor-pointer duration-200 hover:border-site-purple'>
+          <div className='flex py-3.5 px-10 rounded-full items-center border-2 cursor-pointer duration-200 transition-all hover:border-site-purple'>
             <p>My resume</p><img src={dwnldIcon} alt="" className='w-8'/>
           </div>
         </div>

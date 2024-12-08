@@ -130,7 +130,7 @@ const Contact = () => {
 						required
 					></textarea>
 					<button
-						className="py-4 px-8 lg:py-[18px] lg:px-10 rounded-[50px] text-base cursor-pointer duration-500 bg-custom-gradient hover:scale-105"
+						className="py-4 px-8 lg:py-[18px] lg:px-10 rounded-[50px] text-base cursor-pointer duration-500 bg-custom-gradient transition-all hover:scale-105"
 						type="submit"
 						name="submit"
 						id="submit"

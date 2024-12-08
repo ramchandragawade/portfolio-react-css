@@ -16,14 +16,14 @@ const Modal = ({ isOpen, onClose, projectData }) => {
                 </div>
                 <p>{description}</p>
                 <div className='flex flex-row text-white w-full justify-evenly mb-2'>
-                    <div className='bg-black rounded-2xl hover:scale-105 duration-300'>
-                        <a href={gitUrl} target="_blank" className='inline-flex p-2 gap-1 cursor-pointer'>
+                    <div className='bg-black rounded-2xl transition-all hover:scale-105 duration-300'>
+                        <a href={gitUrl} target="_blank" className='inline-flex p-2 gap-1 mx-2 cursor-pointer'>
                             View Code
                             <img className='w-5' src={githubLogo} alt="" />
                         </a>
                     </div>
-                    <div className='bg-black rounded-2xl hover:scale-105 duration-300'>
-                        <a href={demoUrl} target="_blank" className='inline-flex p-2 gap-1 cursor-pointer'>
+                    <div className='bg-black rounded-2xl transition-all hover:scale-105 duration-300'>
+                        <a href={demoUrl} target="_blank" className='inline-flex p-2 gap-1 mx-2 cursor-pointer'>
                             Live Demo
                             <img className='w-5' src={open_tab} alt="" />
                         </a>
