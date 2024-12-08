@@ -1,5 +1,4 @@
 import ReactDOM from 'react-dom';
-import linkedinLogo from '../../assets/linkedin.svg';
 import githubLogo from '../../assets/github.svg';
 
 const Modal = ({ isOpen, onClose, projectData }) => {
@@ -16,13 +15,13 @@ const Modal = ({ isOpen, onClose, projectData }) => {
                 </div>
                 <p>{description}</p>
                 <div className='flex flex-row text-white w-full justify-evenly mb-2'>
-                    <div className='bg-black rounded-2xl'>
+                    <div className='bg-black rounded-2xl hover:scale-105 duration-300'>
                         <a href={gitUrl} target="_blank" className='inline-flex p-2 gap-1 cursor-pointer'>
                             View Code
                             <img className='w-5' src={githubLogo} alt="" />
                         </a>
                     </div>
-                    <div className='bg-black rounded-2xl'>
+                    <div className='bg-black rounded-2xl hover:scale-105 duration-300'>
                         <a href={demoUrl} target="_blank" className='inline-flex p-2 gap-1 cursor-pointer'>
                             Site Demo
                         </a>

@@ -1,6 +1,6 @@
-import yelp1 from '../../assets/yelp1.png';
 import arrowIcon from '../../assets/arrow_icon.svg';
-import Modal from '../Modal/Modal';
+import githubLogo from '../../assets/github.svg';
+import open_tab from '../../assets/open-tab.svg';
 const Project = ({openFn, data, className }) => {
 	const showMoreClick = (id)=>{
 		openFn({
@@ -20,9 +20,32 @@ const Project = ({openFn, data, className }) => {
 			<p className="px-3 text-base font-thin">
 				{data.shortDesc}
 			</p>
-			<div onClick={()=>{showMoreClick(data.id)}} className="flex gap-3 mb-2 rounded-[50px] border-opacity-80 hover:border-opacity-100 border-[1px] border-site-purple py-2 px-5 w-fit text-lg font-medium duration-500 cursor-pointer hover:gap-10 hover:duration-500">
-				<p>Show More</p>
-				<img src={arrowIcon} alt="" className="" />
+			<div className="flex flex-row w-full justify-evenly">
+				<div className='flex flex-row items-center text-white gap-2'>
+					<div className='rounded-2xl hover:scale-110 duration-300 ease-in relative group'>
+						<a href={data.gitUrl} target="_blank" className='inline-flex p-1 gap-1 cursor-pointer'>
+							<img className='w-5' src={githubLogo} alt="" />
+						</a>
+						<div class="absolute bottom-full left-1/2 transform -translate-x-1/2 mb-2 px-3 py-1 text-sm text-white bg-gray-800 rounded opacity-0 group-hover:opacity-100 transition-opacity duration-200">
+							View Code
+						</div>
+					</div>
+					{
+					data.demoUrl && 
+						<div className='rounded-2xl hover:scale-110 duration-300 ease-in relative group'>
+							<a href={data.demoUrl} target="_blank" className='inline-flex p-1 gap-1 cursor-pointer'>
+								<img className='w-5' src={open_tab} alt="" />
+							</a>
+							<div class="absolute bottom-full left-1/2 transform -translate-x-1/2 mb-2 px-3 py-1 text-sm text-white bg-gray-800 rounded opacity-0 group-hover:opacity-100 transition-opacity duration-200">
+								Live Demo
+							</div>
+						</div>
+					}
+				</div>
+				<div onClick={()=>{showMoreClick(data.id)}} className="flex gap-1 mb-2 rounded-[50px] border-opacity-80 hover:border-opacity-100 border-[1px] border-site-purple py-2 px-3 w-fit text-base font-medium duration-500 cursor-pointer hover:gap-3 hover:duration-500">
+					<p>Show More</p>
+					<img src={arrowIcon} alt="" className="w-4" />
+				</div>
 			</div>
 		</div>
 	);
