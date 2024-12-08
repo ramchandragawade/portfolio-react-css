@@ -9,6 +9,7 @@ export default {
       colors: {
         'site-purple': '#B415FF',
         'site-yellow': '#DF8908',
+        'modal-bg': 'rgba(0, 0, 0, 0.9)'
       },
       backgroundImage: {
         'india-colors': 'linear-gradient(130deg, #FF671F 30%,#FFFFFF,#046A38)',
