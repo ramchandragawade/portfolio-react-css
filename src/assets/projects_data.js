@@ -6,6 +6,8 @@ const Project_Data = [
         shortDesc: 'YelpCamp is a campground review and creation platform built with MongoDB, Express.js, Node.js, and integrated with MapBox, Passport.js, and Cloudinary for enhanced functionality.',
         description: 'YelpCamp is a campground review and creation platform built with MongoDB, Express.js, Node.js, and integrated with MapBox, Passport.js, and Cloudinary for enhanced functionality.',
         imgs: [yelpCampImg],
+        gitUrl: 'https://www.linkedin.com/in/ramchandra-gawade/',
+        demoUrl: 'https://www.linkedin.com/in/ramchandra-gawade/',
         techStack: []
     },
     {
@@ -14,6 +16,8 @@ const Project_Data = [
         shortDesc: 'YelpCamp is a campground review and creation platform built with MongoDB, Express.js, Node.js, and integrated with MapBox, Passport.js, and Cloudinary for enhanced functionality.',
         description: 'YelpCamp is a campground review and creation platform built with MongoDB, Express.js, Node.js, and integrated with MapBox, Passport.js, and Cloudinary for enhanced functionality.',
         imgs: [yelpCampImg],
+        gitUrl: 'https://www.linkedin.com/in/ramchandra-gawade/',
+        demoUrl: 'https://www.linkedin.com/in/ramchandra-gawade/',
         techStack: []
     },
     {
@@ -22,6 +26,8 @@ const Project_Data = [
         shortDesc: 'YelpCamp is a campground review and creation platform built with MongoDB, Express.js, Node.js, and integrated with MapBox, Passport.js, and Cloudinary for enhanced functionality.',
         description: 'YelpCamp is a campground review and creation platform built with MongoDB, Express.js, Node.js, and integrated with MapBox, Passport.js, and Cloudinary for enhanced functionality.',
         imgs: [yelpCampImg],
+        gitUrl: 'https://www.linkedin.com/in/ramchandra-gawade/',
+        demoUrl: 'https://www.linkedin.com/in/ramchandra-gawade/',
         techStack: []
     },
     {
@@ -30,6 +36,8 @@ const Project_Data = [
         shortDesc: 'YelpCamp is a campground review and creation platform built with MongoDB, Express.js, Node.js, and integrated with MapBox, Passport.js, and Cloudinary for enhanced functionality.',
         description: 'YelpCamp is a campground review and creation platform built with MongoDB, Express.js, Node.js, and integrated with MapBox, Passport.js, and Cloudinary for enhanced functionality.',
         imgs: [yelpCampImg],
+        gitUrl: 'https://www.linkedin.com/in/ramchandra-gawade/',
+        demoUrl: 'https://www.linkedin.com/in/ramchandra-gawade/',
         techStack: []
     },
     {
@@ -38,6 +46,8 @@ const Project_Data = [
         shortDesc: 'YelpCamp is a campground review and creation platform built with MongoDB, Express.js, Node.js, and integrated with MapBox, Passport.js, and Cloudinary for enhanced functionality.',
         description: 'YelpCamp is a campground review and creation platform built with MongoDB, Express.js, Node.js, and integrated with MapBox, Passport.js, and Cloudinary for enhanced functionality.',
         imgs: [yelpCampImg],
+        gitUrl: 'https://www.linkedin.com/in/ramchandra-gawade/',
+        demoUrl: 'https://www.linkedin.com/in/ramchandra-gawade/',
         techStack: []
     },
     {
@@ -46,6 +56,8 @@ const Project_Data = [
         shortDesc: 'YelpCamp is a campground review and creation platform built with MongoDB, Express.js, Node.js, and integrated with MapBox, Passport.js, and Cloudinary for enhanced functionality.',
         description: 'YelpCamp is a campground review and creation platform built with MongoDB, Express.js, Node.js, and integrated with MapBox, Passport.js, and Cloudinary for enhanced functionality.',
         imgs: [yelpCampImg],
+        gitUrl: 'https://www.linkedin.com/in/ramchandra-gawade/',
+        demoUrl: 'https://www.linkedin.com/in/ramchandra-gawade/',
         techStack: []
     }
 ]
