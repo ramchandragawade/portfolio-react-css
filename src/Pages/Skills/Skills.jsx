@@ -33,7 +33,7 @@ import couchbaseLogo from '../../assets/couchbase.svg';
 import mapboxLogo from '../../assets/mapbox.svg';
 import cloudinaryLogo from '../../assets/cloudinary.svg';
 import jiraLogo from '../../assets/jira1.svg';
-
+import viteLogo from '../../assets/vite.svg';
 
 
 const Skills = () => {
@@ -61,14 +61,15 @@ const Skills = () => {
 					<Skill logo={cssLogo} name={'CSS'} />
 					<Skill logo={tailwindLogo} name={'Tailwind Css'} />
                     <Skill logo={bootstrapLogo} name={'Bootstrap'} />
+					<Skill logo={senchaLogo} name={'Sencha Test'} />
+					<Skill logo={jasmineLogo} name={'Jasmine'} />
                     <Skill logo={reactLogo} name={'React'} />
                     <Skill logo={reduxLogo} name={'Redux'} />
                     <Skill logo={mongoLogo} name={'MongoDB'} />
                     <Skill logo={nodeLogoSm} name={'NodeJs'} />
                     <Skill logo={expressLogo} name={'ExpressJs'} />
+					<Skill logo={viteLogo} name={'Vite'} />
                     <Skill logo={ejsLogo} name={'EmbeddedJs'} />
-					<Skill logo={senchaLogo} name={'Sencha Test'} />
-					<Skill logo={jasmineLogo} name={'Jasmine'} />
 					{/* <Skill logo={cssLogo} name={'SCSS'} /> */}
 					<Skill logo={gitLogo} name={'GIT'} />
                     <Skill logo={apiLogo} name={'REST APIs'} />
