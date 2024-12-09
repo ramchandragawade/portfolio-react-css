@@ -61,6 +61,7 @@ const Skills = () => {
 					<Skill logo={cssLogo} name={'CSS'} />
 					<Skill logo={tailwindLogo} name={'Tailwind Css'} />
                     <Skill logo={bootstrapLogo} name={'Bootstrap'} />
+                    <Skill logo={ejsLogo} name={'EmbeddedJs'} />
 					<Skill logo={senchaLogo} name={'Sencha Test'} />
 					<Skill logo={jasmineLogo} name={'Jasmine'} />
                     <Skill logo={reactLogo} name={'React'} />
@@ -69,7 +70,6 @@ const Skills = () => {
                     <Skill logo={nodeLogoSm} name={'NodeJs'} />
                     <Skill logo={expressLogo} name={'ExpressJs'} />
 					<Skill logo={viteLogo} name={'Vite'} />
-                    <Skill logo={ejsLogo} name={'EmbeddedJs'} />
 					{/* <Skill logo={cssLogo} name={'SCSS'} /> */}
 					<Skill logo={gitLogo} name={'GIT'} />
                     <Skill logo={apiLogo} name={'REST APIs'} />
