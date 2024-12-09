@@ -4,6 +4,7 @@ import Experience from './Experience';
 import expLogo from '../../assets/work-exp-tab.svg';
 import eduLogo from '../../assets/grad-tab.svg';
 import { useState } from 'react';
+import Awards from '../../components/Awards/Awards';
 
 const ExpEdu = () => {
 	const [tab, setTab] = useState('exp');
@@ -37,6 +38,7 @@ const ExpEdu = () => {
 			<div className={`lg:mt-7`}>
 				{tab==='exp' ? <Experience /> : <Education />}	
 			</div>
+			<Awards/>
 		</section>
 	);
 };
