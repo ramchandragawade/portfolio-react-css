@@ -11,8 +11,10 @@ const Project = ({openFn, data, className }) => {
 	}
 	return (
 		<div
-			className={`flex flex-col box-border items-center gap-2 justify-center min-w-full max-w-full md:min-w-[40%] md:max-w-[40%] lg:min-w-[30%] lg:max-w-[30%] p-2 shadow-md
-             shadow-site-purple border-site-purple border-opacity-30 hover:border-opacity-90 cursor-default duration-300 transition-all border-[1px] rounded-md ${className}`}
+			className={`flex flex-col box-border items-center gap-2 justify-center 
+				min-w-full max-w-full md:min-w-[40%] md:max-w-[40%] lg:min-w-[30%] lg:max-w-[30%] p-2 shadow-md
+             shadow-site-purple border-site-purple border-opacity-30
+			 hover:border-opacity-90 cursor-default duration-300 transition-all border-[1px] rounded-md ${className}`}
 		>
 			<div className="md:w-[95%] h-auto items-center overflow-hidden relative rounded-lg">
 				<img src={data.imgs[0]} alt="" className="object-cover w-full" />
