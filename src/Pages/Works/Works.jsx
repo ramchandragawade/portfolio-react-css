@@ -13,7 +13,8 @@ const Works = () => {
 		setOpenModal({
 			isShown: false,
 			data: null
-		})
+		});
+		document.body.style.overflow = '';
 	}
 	return (
 		<section

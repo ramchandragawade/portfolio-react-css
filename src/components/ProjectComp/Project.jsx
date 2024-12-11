@@ -6,7 +6,8 @@ const Project = ({openFn, data, className }) => {
 		openFn({
 			isShown: true,
 			data
-		})
+		});
+		document.body.style.overflow = 'hidden';
 	}
 	return (
 		<div
