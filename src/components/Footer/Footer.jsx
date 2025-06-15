@@ -32,15 +32,20 @@ const Footer = () => {
 				</div> */}
 			</div>
 			<hr className="" />
-			<div className="flex flex-col-reverse mb-12 lg:mb-0 lg:flex-row justify-between text-lg">
+			{/* <div className="flex flex-col-reverse mb-12 lg:mb-0 lg:flex-row justify-between text-lg">
 				<div className="">
 					© 2024 Ramchandra Gawade. All rights reserved.
 				</div>
-				{/* <div className="flex flex-row gap-12 mb-12">
+				<div className="flex flex-row gap-12 mb-12">
 					<p>Term of Services</p>
 					<p>Privacy Policy</p>
 					<p>Connect with me</p>
-				</div> */}
+				</div>
+			</div> */}
+			<div className="flex flex-col-reverse mb-12 lg:flex-row justify-between text-lg">
+				<div className="">
+					© 2024 Ramchandra Gawade. All rights reserved.
+				</div>
 			</div>
 		</div>
 	);

@@ -13,7 +13,7 @@ const Hero = () => {
           <br />based in Mumbai, <span className='bg-india-colors text-transparent bg-clip-text'>India</span>.
         </h1>
         <p className='w-full text-center text-base lg:w-2/3 md:text-lg lg:text-2xl xl:text-3xl'>
-          With over 5 years of experience,<br className='block md:hidden'/> I specialize in <span className='bg-custom-gradient-rev text-transparent bg-clip-text'>front-end development</span>.
+          With over 6 years of experience,<br className='block md:hidden'/> I specialize in <span className='bg-custom-gradient-rev text-transparent bg-clip-text'>front-end development</span>.
         <br />Along the way, I’ve also explored <span className='bg-custom-gradient-rev text-transparent bg-clip-text'>full-stack development </span>
         <br className='block lg:hidden'/>with the MERN stack through various hands-on projects.
         </p>
