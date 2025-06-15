@@ -40,7 +40,7 @@ const Experience = () => {
 						July 2019 - Present
 					</time>
 					<h4 className="flex items-center mb-1 text-base lg:text-lg font-semibold text-gray-900 dark:text-slate-300">
-						With 5+ years at NEC Software Solutions, I progressed from
+						With 6+ years at NEC Software Solutions, I progressed from
 						Associate to Senior Software Engineer by specializing in
 						ExtJS/Sencha Framework (MVVM architecture) for Policing & Public Safety software,
 						delivering high-quality releases, ensuring seamless
