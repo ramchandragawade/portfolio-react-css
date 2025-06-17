@@ -13,7 +13,7 @@ const Footer = () => {
 						<Logo />
 					</div>
 					<p className="text-base max-w-96">
-						I am a frontend developer from Mumbai, India with 5
+						I am a frontend developer from Mumbai, India with 6
 						years of experience.
 					</p>
 				</div>
