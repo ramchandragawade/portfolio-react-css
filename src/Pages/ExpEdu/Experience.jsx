@@ -29,7 +29,7 @@ const Experience = () => {
 					</span>
 					<h3 className="flex items-center mx-1 mb-1 text-base md:text-lg font-semibold text-white">
 						NEC Software Solutions (India) Pvt Ltd.
-						<span className="bg-blue-100 text-blue-900 text-xs md:text-sm font-medium me-2 px-2.5 py-0.5 rounded dark:bg-[#a226dc] dark:text-white ms-3">
+						<span className="text-xs md:text-sm font-medium me-2 px-2.5 py-0.5 rounded bg-[#a226dc] text-white ms-3">
 							Latest
 						</span>
 					</h3>
@@ -117,11 +117,11 @@ const Experience = () => {
 							development.
 						</li>
 					</ul>
-					{/* <ol className="relative border-gray-200 dark:border-gray-700">
+					{/* <ol className="relative border-gray-700">
                     <li className="mb-10 ms-6">
-                      <h4 className='flex items-center mb-1 text-lg font-semibold text-gray-900 dark:text-slate-300'>Senior Software Engineer</h4>
-                      <time className="block mb-2 text-sm font-normal leading-none text-gray-400 dark:text-gray-500">July 2016 - Present</time>
-                      <p className="mb-4 text-base font-normal text-gray-500 dark:text-gray-400">Get access to over 20+ pages including a dashboard layout, charts, kanban board, calendar, and pre-order E-commerce & Marketing pages.</p>
+                      <h4 className='flex items-center mb-1 text-lg font-semibold text-slate-300'>Senior Software Engineer</h4>
+                      <time className="block mb-2 text-sm font-normal leading-none text-gray-500">July 2016 - Present</time>
+                      <p className="mb-4 text-base font-normal text-gray-400">Get access to over 20+ pages including a dashboard layout, charts, kanban board, calendar, and pre-order E-commerce & Marketing pages.</p>
                     </li>                  
                   </ol> */}
 				</li>

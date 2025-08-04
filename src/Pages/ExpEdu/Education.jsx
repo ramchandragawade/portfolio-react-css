@@ -21,11 +21,11 @@ const Education = () => {
 							<span className='hidden lg:block'>|</span>
 							<span className='text-slate-400 font-normal'>University of Mumbai</span>	
 						</div>
-						<time className="block mb-2 text-sm lg:text-base font-semibold leading-none text-gray-400 dark:text-gray-400">
+						<time className="block mb-2 text-sm lg:text-base font-semibold leading-none text-gray-400">
 							July 2016 - Jun 2019
 						</time>
 					</div>
-					<h4 className="flex items-center mb-1 text-base lg:text-lg font-normal text-gray-700 dark:text-slate-300">
+					<h4 className="flex items-center mb-1 text-base lg:text-lg font-normal text-slate-300">
 						Grade: 8.7 CGPA
 					</h4>
 				</li>
@@ -42,14 +42,14 @@ const Education = () => {
 							<span className='hidden lg:block'>|</span>
 							<span className='text-slate-400 font-normal'>Maharashtra State Board of Technical Education</span>	
 						</div>
-						<time className="block mb-2 text-sm lg:text-base font-semibold leading-none text-gray-400 dark:text-gray-400">
+						<time className="block mb-2 text-sm lg:text-base font-semibold leading-none text-gray-400">
 							July 2013 - Jun 2016
 						</time>
-						{/* <time className="block mb-2 text-base font-normal leading-none text-gray-400 dark:text-gray-400">
+						{/* <time className="block mb-2 text-base font-normal leading-none text-gray-400">
 							July 2015 - Jun 2016
 						</time> */}
 					</div>
-					<h4 className="flex items-center mb-1 text-base lg:text-lg font-normal text-gray-700 dark:text-slate-300">
+					<h4 className="flex items-center mb-1 text-base lg:text-lg font-normal text-slate-300">
 						Grade: 85%
 					</h4>
 				</li>
@@ -57,18 +57,18 @@ const Education = () => {
 					<span className="absolute flex items-center justify-center w-6 h-6 bg-white rounded-full -start-3 ring-8 ring-white">
 						<img src={diplomaLogo} alt="" />
 					</span>
-					<h3 className="flex items-center mx-1 mb-1 text-lg font-semibold text-gray-900 dark:text-white">
+					<h3 className="flex items-center mx-1 mb-1 text-lg font-semibold text-white">
 					PVPP's Manohar Phalke Polytechnic
 					</h3>
 					<div className="">
-						<h4 className="flex items-center mb-1 text-lg font-semibold text-gray-900 dark:text-slate-300">
+						<h4 className="flex items-center mb-1 text-lg font-semibold text-slate-300">
 						Diploma in Computer Engineering
 						</h4>
-						<time className="block mb-2 text-base font-normal leading-none text-gray-400 dark:text-gray-400">
+						<time className="block mb-2 text-base font-normal leading-none text-gray-400">
 							July 2013 - July 2015
 						</time>
 					</div>
-					<h4 className="flex items-center mb-1 text-base lg:text-lg font-semibold text-gray-700 dark:text-slate-300">
+					<h4 className="flex items-center mb-1 text-base lg:text-lg font-semibold text-slate-300">
 						Grade: 85%
 					</h4>
 				</li> */}
@@ -85,7 +85,7 @@ const Education = () => {
 							<span className='text-slate-400 font-normal'>Maharashtra State Board of Secondary
 							& Higher Secondary Education</span>	
 						</div>
-					<h4 className="flex items-center mb-1 text-base lg:text-lg font-normal text-gray-700 dark:text-slate-300">
+					<h4 className="flex items-center mb-1 text-base lg:text-lg font-normal text-slate-300">
 						Grade: 83%
 					</h4>
 				</li>
