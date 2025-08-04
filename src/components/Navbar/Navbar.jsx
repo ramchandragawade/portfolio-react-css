@@ -54,7 +54,7 @@ const Navbar = () => {
           <div className="w-full lg:w-max">
             <ul className='flex justify-evenly lg:justify-center lg:gap-8 items-center mt-8 lg:mt-0'>
               <p className='hidden lg:block text-2xl'>|</p>
-              <li><a href="https://www.linkedin.com/in/ramchandra-gawade/" target="_blank"><img className='w-5' src={linkedinLogo} alt="" /></a></li>
+              <li><a href="https://www.linkedin.com/in/ramchandragawade/" target="_blank"><img className='w-5' src={linkedinLogo} alt="" /></a></li>
               <li><a href="https://github.com/ramchandragawade" target="_blank"><img className='w-5' src={githubLogo} alt="" /></a></li>
             </ul>
           </div>
