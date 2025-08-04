@@ -12,7 +12,7 @@ const Education = () => {
 					<span className="absolute flex items-center justify-center w-6 h-6 bg-white rounded-full -start-3 ring-8 ring-white">
 						<img src={gradLogo} alt="" />
 					</span>
-					<h3 className="flex items-center mx-1 mb-1 text-lg font-semibold text-gray-900 dark:text-white">
+					<h3 className="flex items-center mx-1 mb-1 text-lg font-semibold text-white">
 						Vidyalankar Institute of Technology, Mumbai
 					</h3>
 					<div className="">
@@ -33,7 +33,7 @@ const Education = () => {
 					<span className="absolute flex items-center justify-center w-6 h-6 bg-white rounded-full -start-3 ring-8 ring-white">
 						<img src={diplomaLogo} alt="" />
 					</span>
-					<h3 className="flex items-center mx-1 mb-1 text-lg font-semibold text-gray-900 dark:text-white">
+					<h3 className="flex items-center mx-1 mb-1 text-lg font-semibold text-white">
 					Kala Vidya Mandir Polytechnic, Mumbai
 					</h3>
 					<div className="">
@@ -76,7 +76,7 @@ const Education = () => {
 					<span className="absolute flex items-center justify-center w-6 h-6 bg-white rounded-full -start-3 ring-8 ring-white">
 						<img src={schoolLogo} alt="" />
 					</span>
-					<h3 className="flex items-center mx-1 mb-1 text-lg font-semibold text-gray-900 dark:text-white">
+					<h3 className="flex items-center mx-1 mb-1 text-lg font-semibold text-white">
 					Shree N.D. Bhuta High School, Mumbai
 					</h3>
 					<div className="flex flex-col lg:flex-row lg:gap-3 mb-1 text-base lg:text-lg font-semibold text-slate-300">

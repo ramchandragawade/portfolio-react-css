@@ -27,19 +27,19 @@ const Experience = () => {
 					<span className="absolute flex items-center justify-center w-6 h-6 bg-white rounded-full -start-3 ring-8 ring-white">
 						<img src={workExpLogo} alt="" />
 					</span>
-					<h3 className="flex items-center mx-1 mb-1 text-base md:text-lg font-semibold text-gray-900 dark:text-white">
+					<h3 className="flex items-center mx-1 mb-1 text-base md:text-lg font-semibold text-white">
 						NEC Software Solutions (India) Pvt Ltd.
 						<span className="bg-blue-100 text-blue-900 text-xs md:text-sm font-medium me-2 px-2.5 py-0.5 rounded dark:bg-[#a226dc] dark:text-white ms-3">
 							Latest
 						</span>
 					</h3>
-					<h4 className="flex items-center mb-1 text-base md:text-lg font-semibold text-gray-900 dark:text-slate-400">
+					<h4 className="flex items-center mb-1 text-base md:text-lg font-semibold text-slate-400">
 						Current Role: Senior Software Engineer
 					</h4>
-					<time className="block mb-2 text-sm md:text-base font-semibold leading-none text-gray-400 dark:text-gray-400">
+					<time className="block mb-2 text-sm md:text-base font-semibold leading-none text-gray-400">
 						July 2019 - Present
 					</time>
-					<h4 className="flex items-center mb-1 text-base lg:text-lg font-semibold text-gray-900 dark:text-slate-300">
+					<h4 className="flex items-center mb-1 text-base lg:text-lg font-semibold text-slate-300">
 						With 6+ years at NEC Software Solutions, I progressed from
 						Associate to Senior Software Engineer by specializing in
 						ExtJS/Sencha Framework (MVVM architecture) for Policing & Public Safety software,
@@ -47,7 +47,7 @@ const Experience = () => {
 						backend integration, and collaborating with
 						cross-functional teams to drive success.
 					</h4>
-					<h4 className="flex items-center mb-1 text-base lg:text-lg font-semibold text-gray-900 dark:text-slate-400">
+					<h4 className="flex items-center mb-1 text-base lg:text-lg font-semibold text-slate-400">
 						Worked with:
 					</h4>
 					<div className="flex flex-row items-start gap-5 flex-wrap text-center justify-start text-sm lg:text-base">
@@ -75,7 +75,7 @@ const Experience = () => {
 						<ExpSkill logo={apiLogo} name={'REST APIs'}/>
 						<ExpSkill logo={postmanLogo} name={'Postman'}/>
 					</div>
-					<h4 className="flex items-center my-1 text-base lg:text-lg font-semibold text-gray-900 dark:text-slate-400">
+					<h4 className="flex items-center my-1 text-base lg:text-lg font-semibold text-slate-400">
 						Key Achievements:
 					</h4>
 					<ul className="flex flex-col text-base lg:text-lg list-disc marker:text-site-purple px-4 gap-1">
